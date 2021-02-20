@@ -355,8 +355,8 @@ h2 {
 }
 
 h3 {
-  font-family: "Raleway";
-  font-weight: bold;
+  font-family: "Montserrat";
+  font-weight: semibold;
 }
 
 h4 {
@@ -364,7 +364,7 @@ h4 {
   font-weight: bold;
 }
 
-h5 {
+.sub2 {
   font-family: "Raleway";
   font-weight: normal;
 }
