@@ -135,13 +135,18 @@
       <p>.radio</p>
       <h4>Sample code:</h4>
       <code>
-        &lt;div class="radio"&gt; <br>
-          &lt;input type="radio" id="radio-first" name="radio-option" value="Option One"&gt;<br>
-          &lt;label for="radio-first"&gt;Option One&lt;/label&gt; <br>
-  
-          &lt;input type="radio" id="radio-second" name="radio-option" value="Option Two"&gt;<br>
-          &lt;label for="radio-second"&gt;Option Two&lt;/label&gt;<br>
-        &lt;/div&gt;
+        &lt;div&gt; <br>
+        &lt;form action=“#”&gt; <br>
+         &lt;label class="radio-container”&gt; Option One <br>
+            &lt;input type="radio" checked="checked" name="radio”&gt; <br>
+            &lt;span class="radio-selected”&gt;&lt;/span&gt; <br>
+          &lt;/label&gt; <br>
+          &lt;label class="radio-container”&gt;Option Two <br>
+            &lt;input type="radio" name="radio”&gt; <br>
+            &lt;span class="radio-selected”&gt;&lt;/span&gt; <br>
+          &lt;/label&gt; <br>
+        &lt;/form&gt; <br>
+      &lt;/div&gt;
       </code>
 
       <h4>Rendered element:</h4>
@@ -506,7 +511,7 @@
 
         <h3>Payment</h3>
         <h4>Select Credit/Debit Card Type</h4>
-        <div>
+        <div class="radio">
           <label class="radio-payment">Visa
             <input type="radio" checked="checked" name="radio">
             <span class="radio-selected"></span>
