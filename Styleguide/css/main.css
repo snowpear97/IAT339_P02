@@ -96,6 +96,10 @@ Colour Swatches
   width: 50%;
 }
 
+.bg-colour {
+  background-color: rgb(247, 247, 247);
+}
+
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
