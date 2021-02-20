@@ -145,12 +145,18 @@
       </code>
 
       <h4>Rendered element:</h4>
-      <div class="radio">
-        <input type="radio" id="radio-first" name="radio-option" value="Option One">
-        <label for="radio-first">Option One</label>
-
-        <input type="radio" id="radio-second" name="radio-option" value="Option Two">
-        <label for="radio-second">Option Two</label>
+      <div>
+        <form action="#">
+          <!-- to be determined as to what page the button submission leads to, currently goes to TOP of page-->
+          <label class="radio-container">Option One
+            <input type="radio" checked="checked" name="radio">
+            <span class="radio-selected"></span>
+          </label>
+          <label class="radio-container">Option Two
+            <input type="radio" name="radio">
+            <span class="radio-selected"></span>
+          </label>
+        </form>
       </div>
 
     </section>

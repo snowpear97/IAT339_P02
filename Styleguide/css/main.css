@@ -249,6 +249,101 @@ https://markheath.net/post/customize-radio-button-css
   transition: 0.1s;
 }
 
+/* Other Radio Button Option*/
+/* Styling for the radio button, inspired by: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio */
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 2.2rem;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-selected {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #dadada;
+  border-radius: 50%;
+}
+
+.radio-container:hover input ~ .radio-selected {
+  background-color: #77cde1;
+}
+
+.radio-container input:checked ~ .radio-selected {
+  background-color: #4a7fb3;
+}
+
+.radio-selected:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-container input:checked ~ .radio-selected:after {
+  display: block;
+}
+
+.radio-container .radio-selected:after {
+ 	top: 0.5rem;
+	left: 0.5rem;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background: white;
+}
+
+/* Checkout Radio Buttons */
+.radio-payment { /* Inspired by: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio */
+  display: inline-block;
+  position: relative;
+  padding-left: 2.2rem;
+  margin-left: 0.75rem;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.radio-payment input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-payment:hover input~.radio-selected {
+  background-color: #77cde1;
+}
+
+.radio-payment input:checked~.radio-selected {
+  background-color: #4a7fb3;
+}
+
+.radio-payment input:checked~.radio-selected:after {
+  display: block;
+}
+
+.radio-payment .radio-selected:after {
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: white;
+}
+
 /*****************************
 TEXT ELEMENTS -------------------
 *******************************/

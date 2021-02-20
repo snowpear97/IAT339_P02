@@ -55,11 +55,15 @@
 
             <h3>Payment</h3>
             <h4>Select Credit/Debit Card Type</h4>
-            <div class="radio">
-                <input type="radio" id="visa" name="cc-option" value="Visa">
-                <label for="visa">Visa</label>
-                <input type="radio" id="mastercard" name="cc-option" value="Mastercard">
-                <label for="mastercard">Mastercard</label>
+            <div>
+                <label class="radio-payment">Visa
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="radio-selected"></span>
+                </label>
+                <label class="radio-payment">Mastercard
+                    <input type="radio" name="radio">
+                    <span class="radio-selected"></span>
+                </label> 
             </div>
 
             <h4>Card Details</h4>
