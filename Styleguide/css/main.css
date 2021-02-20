@@ -250,23 +250,23 @@ TEXT ELEMENTS -------------------
 *******************************/
 
 h2 {
-  font-family: "Raleway";
+  font-family: "Montserrat";
   font-weight: bold;
 }
 
 h3 {
-  font-family: "Montserrat";
+  font-family: "Raleway";
   font-weight: bold;
 }
 
 h4 {
-  font-family: "Montserrat";
-  font-weight: normal;
+  font-family: "Raleway";
+  font-weight: bold;
 }
 
 h5 {
-  font-family: "Montserrat";
-  font-weight: lighter
+  font-family: "Raleway";
+  font-weight: normal;
 }
 
 p {
