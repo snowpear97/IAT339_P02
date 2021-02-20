@@ -133,7 +133,7 @@ https://www.w3schools.com/css/css3_buttons.asp
 }
 
 .button-nav:hover, .button-nav:focus {
-  text-decoration: underline;
+  text-decoration: none;
   color: #5db2d7;
 }
 
@@ -169,7 +169,7 @@ SUBMIT AND RESET BUTTON
 
 .submitreset:hover, .submitreset:active {
   opacity: 70%;
-  text-decoration: underline;
+  text-decoration: none;
   transition: 0.5s;
 }
 
@@ -389,7 +389,7 @@ https://www.w3schools.com/howto/howto_css_product_card.asp
 }
 
 .listing button:hover .cart {
-  text-decoration: underline;
+  text-decoration: none;
   transition: 0.5s ease-in;
   display: inline;
 }
