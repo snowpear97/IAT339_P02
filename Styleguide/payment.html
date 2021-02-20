@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Wei - P01 - Payment</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a class="button-nav" href="#"><span>Home</span></a>
+            <a class="button-nav" href="index.html"><span>Styleguide</span></a>
+            <a class="button-nav" href="listing.html"><span>Browse</span></a>
+            <a class="button-nav" href="#"><span>About Us</span></a>
+            <a class="button-nav" href="#"><span>Contact</span></a>
+            <a class="button-nav" href="cart.html"><span>Checkout</span></a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="payment-form">
+            <h2>Shipping and Payment Information</h2>
+            <h3>Billing Address</h3>
+
+            <div class="details">
+                <label for="name">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="John">
+                <label for="name">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Smith">
+            </div>
+
+            <div class="details">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" placeholder="123 South Street">
+            </div>
+
+            <div class="details">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" placeholder="Vancouver">
+                <label for="postalcode">Postal Code</label>
+                <input type="text" id="postalcode" name="postalcode">
+                <label for="prov">Province</label>
+                <input type="text" id="prov" name="prov" placeholder="BC">
+            </div>
+
+            <input type="checkbox" id="sameaddress" name="sameaddress" checked>
+            <label for="sameaddress">Shipping address same as billing address</label>
+
+            <h3>Payment</h3>
+            <h4>Select Credit/Debit Card Type</h4>
+            <div class="radio">
+                <input type="radio" id="visa" name="cc-option" value="Visa">
+                <label for="visa">Visa</label>
+                <input type="radio" id="mastercard" name="cc-option" value="Mastercard">
+                <label for="mastercard">Mastercard</label>
+            </div>
+
+            <h4>Card Details</h4>
+            <div class="details">
+                <label for="name">Name on card:</label>
+                <input type="text" id="name" name="name" placeholder="John Smith">
+            </div>
+
+            <div class="details">
+                <label for="cardnum">Card #:</label>
+                <input type="text" id="cardnum" name="cardnum" placeholder="1111-2222-3333">
+                <label for="expiredate">Expiry:</label>
+                <input type="month" id="expiredate" name="expiredate">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123">
+            </div>
+
+            <div class="details">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone">
+            </div>
+            <form action="confirmed.html">
+                <button class="submitreset">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

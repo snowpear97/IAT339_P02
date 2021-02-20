@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crystal Wei - P01 - Cart</title>
+
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a class="button-nav" href="#"><span>Home</span></a>
+      <a class="button-nav" href="index.html"><span>Styleguide</span></a>
+      <a class="button-nav" href="listing.html"><span>Browse</span></a>
+      <a class="button-nav" href="#"><span>About Us</span></a>
+      <a class="button-nav" href="#"><span>Contact</span></a>
+      <a class="button-nav" href="cart.html"><span>Checkout</span></a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="mycart">
+      <h2>My Cart</h2>
+      <div class="checkout-category">
+        <h3 class="product-col">Product</h3>
+        <h3 class="quantity-col">Quantity</h3>
+        <h3 class="price-col">Price</h3>
+      </div>
+
+      <!---PRODUCT 1-->
+      <div class="checkout">
+        <img alt="placeholder img" src="img/genki1.jpg">
+        <div class="product-col">
+          <h4>Product 1</h4>
+          <h5>Product Description</h5>
+        </div>
+        <div class="quantity-col">
+          <input type="number" name="data" placeholder="1">
+          <button>Delete</button>
+        </div>
+        <div class="price-show">
+          <h4>$70.00</h4>
+        </div>
+      </div>
+
+      <!---PRODUCT 2-->
+      <div class="checkout">
+        <img alt="placeholder img" src="img/genki2.jpg">
+        <div class="product-col">
+          <h4>Product 2</h4>
+          <h5>Product Description</h5>
+        </div>
+        <div class="quantity-col">
+          <input type="number" name="data" placeholder="1">
+          <button>Delete</button>
+        </div>
+        <div class="price-show">
+          <h4>$70.00</h4>
+        </div>
+      </div>
+
+      <div class="cart-summary">
+        <div>
+          <h4>Subtotal: $140.00</h4>
+          <h4>Shipping: Calculated Later</h4>
+        </div>
+        <form action="payment.html">
+          <button class="submitreset">Submit and Pay</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

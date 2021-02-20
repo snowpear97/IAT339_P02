@@ -1,0 +1,535 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+img{
+  width: 100%;
+  max-width: fit-content;
+  height: auto;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.titles {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+}
+
+.margin{
+  margin: 2rem;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float: right;
+}
+
+/****************************
+Colour Swatches
+*****************************/
+#darkest-blue {
+  background-color: #4a7fb3;
+  padding: 1rem;
+  width: 50%;
+}
+
+#medium-blue {
+  background-color: #5db2d7;
+  padding: 1rem;
+  width: 50%;
+}
+
+#light-blue {
+  background-color: #77cde1;
+  padding: 1rem;
+  width: 50%;
+}
+
+#light-grey {
+  background-color: #dddddd;
+  padding: 1rem;
+  width: 50%;
+}
+
+#medium-grey {
+  background-color: #b3b3b3;
+  padding: 1rem;
+  width: 50%;
+}
+
+#black {
+  background-color: #000;
+  padding: 1rem;
+  width: 50%;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/******************************
+INTEXTLINK 
+***************************/
+.intext-link {
+  color: lightgray;
+}
+
+.intext-link:hover, .intext-link:active {
+  color: lightskyblue;
+}
+
+.intext-link:focus {
+  color: mediumslateblue;
+}
+
+/**************************************
+NAVIGATION BUTTON
+REFERENCE FOR THE ARROWS:
+https://www.w3schools.com/css/css3_buttons.asp
+****************************************/
+.button-nav {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 1rem;
+  color: #000;
+  background-color: white;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  text-decoration: underline;
+  color: #5db2d7;
+}
+
+.button-nav span {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button-nav span:after {
+  content: '\00bb';
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.button-nav:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/********************************
+SUBMIT AND RESET BUTTON
+********************************/
+
+.submitreset {
+  font-family: "Montserrat";
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: white;
+  background-color: #000;
+}
+
+.submitreset:hover, .submitreset:active {
+  opacity: 70%;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.submitreset:focus {
+  font-weight: bold;
+}
+
+/***********************************
+INPUT ELEMENTS
+REFERENCE: https://www.w3schools.com/css/css_form.asp
+************************************/
+
+input {
+  border: 0.15rem solid #4a7fb3;
+  border-radius: 0.4rem;
+  padding: 0.2rem;
+  background-color: white;
+}
+
+.input-stretch {
+  width: 25%;
+  transition: width 0.5s ease-in-out;
+}
+
+.input-stretch:active, .input-stretch:focus {
+  width: 75%;
+  border: 0.3rem solid #4a7fb3;
+}
+
+.input-gen:focus {
+  border: 0.2rem solid #4a7fb3;
+}
+
+/*********************************************
+RADIO BUTTONS
+REFERENCE:
+https://markheath.net/post/customize-radio-button-css 
+***********************************************/
+.radio input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.radio label {
+  font-family: "Montserrat";
+  font-weight: bold;
+  background-color: white;
+  color: #5db2d7;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-family: "Lato";
+  border: 0.12rem solid #5db2d7;
+  border-radius: 0.75rem;
+  margin: 0.5rem;
+}
+
+.radio input[type="radio"]:checked+label {
+  color: white;
+  background-color: #4a7fb3;
+}
+
+.radio input[type="radio"]:focus+label {
+  border: 0.15rem solid;
+  background-color: #77cde1;
+}
+
+.radio label:hover {
+  color: white;
+  background-color: #5db2d7;
+  transition: 0.1s;
+}
+
+/*****************************
+TEXT ELEMENTS -------------------
+*******************************/
+
+h2 {
+  font-family: "Raleway";
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+h5 {
+  font-family: "Montserrat";
+  font-weight: lighter
+}
+
+p {
+  font-family: "Lato";
+}
+
+/*****************************
+IMAGE ELEMENTS
+*****************************/
+
+a>.img-overlay:hover, a>.img-overlay:active, a>img-overlay:focus {
+  opacity: 0.5;
+  transition: 0.5s ease;
+}
+
+/*************************************
+LIST ITEMS ELEMENTS
+REFERENCE: 
+https://blog.prototypr.io/create-beautiful-numbered-lists-with-css-counters-726e705d9e14
+***************************************/
+
+.ol-styling {
+  list-style: none;
+  counter-reset: numlist;
+}
+
+.num-list {
+  counter-increment: numlist;
+  margin-bottom: 0.5rem;
+}
+
+.num-list:before {
+  content: counter(numlist);
+  font-family: "Montserrat";
+  background: #5db2d7;
+  color: white;
+  border-radius: 50%;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding-top: 0.25rem;
+  margin-right: 0.75rem;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+/************************************
+NAVIGATION BAR SECTION HERE
+REFERENCE: 
+https://www.w3schools.com/css/css_navbar.asp
+https://www.w3schools.com/howto/howto_css_responsive_header.asp
+***************************************/
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  border-bottom: darkgrey solid 0.1rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/*******************************
+PRODUCT LISTING SECTION HERE
+REFERENCE: 
+https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text/9913526
+https://www.w3schools.com/howto/howto_css_product_card.asp
+*********************************/
+.listing {
+  padding: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+}
+
+.listing .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.listing .product {
+  font-family: "Raleway";
+  margin-bottom: 0.2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  display: inline-block;
+  text-align: center;
+  max-width: 15rem;
+}
+
+.listing button {
+  font: bold;
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: none;
+  outline: 0;
+  color: white;
+  background-color: #5db2d7;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.listing button:hover {
+  opacity: 70%;
+}
+
+.listing button .cart {
+  display: none;
+}
+
+.listing button:hover .price {
+  display: none;
+}
+
+.listing button:hover .cart {
+  text-decoration: underline;
+  transition: 0.5s ease-in;
+  display: inline;
+}
+
+/*************************************
+CHECKOUT CART SECTION
+****************************************/
+
+/**Container for entire cart**/
+.mycart {
+  padding: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+}
+
+.mycart .product-col {
+  flex: 10 1 40%;
+  text-align: left;
+}
+
+.mycart .quantity-col {
+  flex: 0 1 auto;
+  text-align: left;
+}
+
+.mycart .price-col {
+  flex: 0 1 15%;
+  text-align: right;
+}
+
+.mycart .price-show {
+  flex: 0 1 15%;
+  text-align: right;
+}
+
+/**For top part of cart to categorize items**/
+.checkout-category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: darkgrey solid 0.1rem;
+}
+
+/**Cart contents*/
+.checkout {
+  font-family: "Raleway";
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: darkgrey solid 0.1rem;
+}
+
+.checkout:hover {
+  box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.checkout img{
+  margin-right: 2rem;
+}
+
+.checkout input[type="number"] {
+  width: 4rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.checkout button {
+  font-family: "Montserrat";
+  border: none;
+  outline: 0;
+  padding: 0.3rem;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.checkout button:hover {
+  opacity: 70%;
+}
+
+.cart-summary {
+  float: right;
+}
+
+
+/***********************
+PAYMENT FORM HERE
+REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
+************************/
+.payment-form {
+  font-family: "Raleway";
+  padding: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+.payment-form .details {
+  display: flex;
+  flex-direction: row;
+}
+
+.payment-form .details label {
+  flex: none;
+  display: block;
+  width: 5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.payment-form .details input[type=text], .details input[type=month], .details input[type=email], .details input[type=tel] {
+  flex: 1 0 auto;
+  display: block;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.payment-form button{
+  float:right;
+}
+
+@media (max-width: 50rem) {
+  .payment-form .details{
+    flex-direction: column;
+  }
+
+  .mycart{
+    flex-wrap: -webkit-flex;
+		flex-wrap: -ms-flex;
+		flex-wrap: wrap;
+  }
+
+  .checkout-category .quantity-col, .price-col{
+    display: none;
+  }
+}
