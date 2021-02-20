@@ -5,7 +5,6 @@
 
 body {
   font-family: Lato Light;
-  margin: 0;
 }
 
 img{
@@ -40,12 +39,23 @@ code {
   margin: 2rem;
 }
 
+.padding{
+  padding: 2rem;
+}
+
 .left{
   float:left;
 }
 
 .right{
   float: right;
+}
+
+.page-body{
+  margin-bottom: 10rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
 }
 
 /****************************
