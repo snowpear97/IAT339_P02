@@ -61,32 +61,32 @@ code {
 /****************************
 Colour Swatches
 *****************************/
-#darkest-blue {
-  background-color: #4a7fb3;
+#independence-colour {
+  background-color: #555B6E;
   padding: 1rem;
   width: 50%;
 }
 
-#medium-blue {
-  background-color: #5db2d7;
+#morningblue-colour {
+  background-color: #89B0AE;
   padding: 1rem;
   width: 50%;
 }
 
-#light-blue {
-  background-color: #77cde1;
+#verdigris-colour {
+  background-color: #41B0B0;
   padding: 1rem;
   width: 50%;
 }
 
-#light-grey {
-  background-color: #dddddd;
+#newyorkpink-colour {
+  background-color: #CC8B86;
   padding: 1rem;
   width: 50%;
 }
 
-#medium-grey {
-  background-color: #b3b3b3;
+#cultured-colour {
+  background-color: #FAF9F9;
   padding: 1rem;
   width: 50%;
 }
@@ -98,7 +98,7 @@ Colour Swatches
 }
 
 .bg-colour {
-  background-color: rgb(247, 247, 247);
+  background-color: #FAF9F9;
 }
 
 /* 
@@ -139,7 +139,7 @@ https://www.w3schools.com/css/css3_buttons.asp
 
 .button-nav:hover, .button-nav:focus {
   text-decoration: none;
-  color: #5db2d7;
+  color: #89B0AE;
 }
 
 .button-nav span {
@@ -170,7 +170,7 @@ SUBMIT AND RESET BUTTON
   padding-right: 1.5rem;
   color: white;
   border: none;
-  background-color: #000;
+  background-color: #41B0B0;
 }
 
 .submitreset:hover, .submitreset:active {
@@ -283,11 +283,11 @@ https://markheath.net/post/customize-radio-button-css
 }
 
 .radio-container:hover input ~ .radio-selected {
-  background-color: #77cde1;
+  background-color: #41B0B0;
 }
 
 .radio-container input:checked ~ .radio-selected {
-  background-color: #4a7fb3;
+  background-color: #89B0AE;
 }
 
 .radio-selected:after {
@@ -326,11 +326,11 @@ https://markheath.net/post/customize-radio-button-css
 }
 
 .radio-payment:hover input~.radio-selected {
-  background-color: #77cde1;
+  background-color: #41B0B0;
 }
 
 .radio-payment input:checked~.radio-selected {
-  background-color: #4a7fb3;
+  background-color: #89B0AE ;
 }
 
 .radio-payment input:checked~.radio-selected:after {
@@ -402,7 +402,7 @@ https://blog.prototypr.io/create-beautiful-numbered-lists-with-css-counters-726e
 .num-list:before {
   content: counter(numlist);
   font-family: "Montserrat";
-  background: #5db2d7;
+  background: #89B0AE ;
   color: white;
   border-radius: 50%;
   width: 1.75rem;
@@ -472,7 +472,7 @@ https://www.w3schools.com/howto/howto_css_product_card.asp
   border: none;
   outline: 0;
   color: white;
-  background-color: #5db2d7;
+  background-color: #CC8B86;
   cursor: pointer;
   text-decoration: none;
 }
@@ -566,7 +566,7 @@ CHECKOUT CART SECTION
   outline: 0;
   padding: 0.3rem;
   color: white;
-  background-color: #000;
+  background-color: #555B6E;
   text-align: center;
   margin-top: 0.5rem;
   cursor: pointer;
