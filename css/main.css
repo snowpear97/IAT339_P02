@@ -642,6 +642,35 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   width: 100%;
 }
 
+/*INDIVIDUAL PRODUCT PAGE*/
+
+.product-container{
+  margin: 2rem;
+}
+
+.product-category{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.product-category .image-col {
+  width: 30%;
+  align-self: center;
+}
+
+.product-category .infor-col {
+  width: 50%;
+}
+
+.product-category button{
+  margin-top: 2rem;
+  float: right;
+}
+
+
 /*MEDIA QUERIES*/
 
 @media (max-width: 50rem) {
@@ -655,5 +684,17 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   }
   .checkout-category .quantity-col, .price-col {
     display: none;
+  }
+  .product-category{
+    flex-direction: column;
+  }
+  .product-category .image-col {
+    width: 100%;
+    align-self: center;
+  }
+  .product-category .infor-col {
+    width: 100%;
+    justify-self: center;
+    align-self: center;
   }
 }
