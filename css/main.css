@@ -58,6 +58,13 @@ code {
   margin-top: 0;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 /****************************
 Colour Swatches
 *****************************/
@@ -643,17 +650,17 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   width: 100%;
 }
 
-.footer h4{
+.footer h4 {
   margin-left: 2rem;
 }
 
 /*INDIVIDUAL PRODUCT PAGE*/
 
-.product-container{
+.product-container {
   margin: 2rem;
 }
 
-.product-category{
+.product-category {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -670,11 +677,10 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   width: 50%;
 }
 
-.product-category button{
+.product-category button {
   margin-top: 2rem;
   float: right;
 }
-
 
 /*MEDIA QUERIES*/
 
@@ -690,7 +696,7 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   .checkout-category .quantity-col, .price-col {
     display: none;
   }
-  .product-category{
+  .product-category {
     flex-direction: column;
   }
   .product-category .image-col {
