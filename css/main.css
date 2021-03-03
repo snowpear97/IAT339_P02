@@ -635,11 +635,16 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
 /*FOOTER*/
 
 .footer {
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #89B0AE;
   text-align: left;
   color: white;
   width: 100%;
+}
+
+.footer h4{
+  margin-left: 2rem;
 }
 
 /*INDIVIDUAL PRODUCT PAGE*/
