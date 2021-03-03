@@ -7,7 +7,7 @@ body {
   font-family: Lato Light;
 }
 
-img{
+img {
   width: 100%;
   max-width: fit-content;
   height: auto;
@@ -35,23 +35,23 @@ code {
   display: block;
 }
 
-.margin{
+.margin {
   margin: 2rem;
 }
 
-.padding{
+.padding {
   padding: 2rem;
 }
 
-.left{
-  float:left;
+.left {
+  float: left;
 }
 
-.right{
+.right {
   float: right;
 }
 
-.page-body{
+.page-body {
   margin-bottom: 10rem;
   margin-left: 0;
   margin-right: 0;
@@ -61,6 +61,7 @@ code {
 /****************************
 Colour Swatches
 *****************************/
+
 #independence-colour {
   background-color: #555B6E;
   padding: 1rem;
@@ -108,6 +109,7 @@ Colour Swatches
 /******************************
 INTEXTLINK 
 ***************************/
+
 .intext-link {
   color: lightgray;
 }
@@ -125,6 +127,7 @@ NAVIGATION BUTTON
 REFERENCE FOR THE ARROWS:
 https://www.w3schools.com/css/css3_buttons.asp
 ****************************************/
+
 .button-nav {
   display: inline-block;
   font-family: "Montserrat";
@@ -214,6 +217,7 @@ RADIO BUTTONS
 REFERENCE:
 https://markheath.net/post/customize-radio-button-css 
 ***********************************************/
+
 .radio input[type="radio"] {
   opacity: 0;
   position: fixed;
@@ -252,7 +256,9 @@ https://markheath.net/post/customize-radio-button-css
 }
 
 /* Other Radio Button Option*/
+
 /* Styling for the radio button, inspired by: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio */
+
 .radio-container {
   display: block;
   position: relative;
@@ -282,11 +288,11 @@ https://markheath.net/post/customize-radio-button-css
   border-radius: 50%;
 }
 
-.radio-container:hover input ~ .radio-selected {
+.radio-container:hover input~.radio-selected {
   background-color: #41B0B0;
 }
 
-.radio-container input:checked ~ .radio-selected {
+.radio-container input:checked~.radio-selected {
   background-color: #89B0AE;
 }
 
@@ -296,21 +302,23 @@ https://markheath.net/post/customize-radio-button-css
   display: none;
 }
 
-.radio-container input:checked ~ .radio-selected:after {
+.radio-container input:checked~.radio-selected:after {
   display: block;
 }
 
 .radio-container .radio-selected:after {
- 	top: 0.5rem;
-	left: 0.5rem;
-	width: 0.5rem;
-	height: 0.5rem;
-	border-radius: 50%;
-	background: white;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: white;
 }
 
 /* Checkout Radio Buttons */
-.radio-payment { /* Inspired by: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio */
+
+.radio-payment {
+  /* Inspired by: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio */
   display: inline-block;
   position: relative;
   padding-left: 2.2rem;
@@ -330,7 +338,7 @@ https://markheath.net/post/customize-radio-button-css
 }
 
 .radio-payment input:checked~.radio-selected {
-  background-color: #89B0AE ;
+  background-color: #89B0AE;
 }
 
 .radio-payment input:checked~.radio-selected:after {
@@ -402,7 +410,7 @@ https://blog.prototypr.io/create-beautiful-numbered-lists-with-css-counters-726e
 .num-list:before {
   content: counter(numlist);
   font-family: "Montserrat";
-  background: #89B0AE ;
+  background: #89B0AE;
   color: white;
   border-radius: 50%;
   width: 1.75rem;
@@ -424,6 +432,7 @@ REFERENCE:
 https://www.w3schools.com/css/css_navbar.asp
 https://www.w3schools.com/howto/howto_css_responsive_header.asp
 ***************************************/
+
 .navbar {
   background-color: white;
   overflow: hidden;
@@ -438,6 +447,7 @@ REFERENCE:
 https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text/9913526
 https://www.w3schools.com/howto/howto_css_product_card.asp
 *********************************/
+
 .listing {
   padding: 2rem;
   margin-right: 1rem;
@@ -500,6 +510,7 @@ CHECKOUT CART SECTION
 ****************************************/
 
 /**Container for entire cart**/
+
 .mycart {
   padding: 2rem;
   margin-right: 1rem;
@@ -528,6 +539,7 @@ CHECKOUT CART SECTION
 }
 
 /**For top part of cart to categorize items**/
+
 .checkout-category {
   display: flex;
   flex-direction: row;
@@ -536,6 +548,7 @@ CHECKOUT CART SECTION
 }
 
 /**Cart contents*/
+
 .checkout {
   font-family: "Raleway";
   padding: 1rem;
@@ -550,7 +563,7 @@ CHECKOUT CART SECTION
   box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2);
 }
 
-.checkout img{
+.checkout img {
   margin-right: 2rem;
 }
 
@@ -580,11 +593,11 @@ CHECKOUT CART SECTION
   float: right;
 }
 
-
 /***********************
 PAYMENT FORM HERE
 REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
 ************************/
+
 .payment-form {
   font-family: "Raleway";
   padding: 2rem;
@@ -615,22 +628,32 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   margin-right: 1rem;
 }
 
-.payment-form button{
-  float:right;
+.payment-form button {
+  float: right;
 }
 
+/*FOOTER*/
+
+.footer {
+  padding: 1rem;
+  background-color: #89B0AE;
+  text-align: left;
+  color: white;
+  width: 100%;
+}
+
+/*MEDIA QUERIES*/
+
 @media (max-width: 50rem) {
-  .payment-form .details{
+  .payment-form .details {
     flex-direction: column;
   }
-
-  .mycart{
+  .mycart {
     flex-wrap: -webkit-flex;
-		flex-wrap: -ms-flex;
-		flex-wrap: wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: wrap;
   }
-
-  .checkout-category .quantity-col, .price-col{
+  .checkout-category .quantity-col, .price-col {
     display: none;
   }
 }
