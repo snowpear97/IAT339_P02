@@ -607,10 +607,13 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
 
 .payment-form {
   font-family: "Raleway";
-  padding: 2rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 4rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
   background-color: #ffffff;
 }
 
@@ -633,6 +636,7 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   display: block;
   margin-bottom: 1rem;
   margin-right: 1rem;
+  height: 1.7rem;
 }
 
 .payment-form button {
@@ -684,7 +688,10 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 50rem) {
+/*
+tablet/mobile sizes and smaller
+*/
+@media (max-width: 50rem) { 
   .payment-form .details {
     flex-direction: column;
   }
