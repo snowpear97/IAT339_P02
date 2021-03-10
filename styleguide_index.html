@@ -332,13 +332,32 @@
         &lt;/nav&gt;
       </code>
       <h4>Rendered element:</h4>
+      <!--
       <nav class="navbar">
-        <a class="button-nav" href="#"><span>Home</span></a>
-        <a class="button-nav" href="#"><span>Browse</span></a>
-        <a class="button-nav" href="#"><span>About Us</span></a>
-        <a class="button-nav" href="#"><span>Contact</span></a>
-        <a class="button-nav" href="#"><span>Checkout</span></a>
+        <ul>
+          <li><a class="button-nav" href="#"><span>Home</span></a></li>
+          <li><a class="button-nav" href="#"><span>Browse</span></a></li>
+          <li><a class="button-nav" href="#"><span>About Us</span></a></li>
+          <li><a class="button-nav" href="#"><span>Contact</span></a></li>
+          <li><a class="button-nav" href="#"><span>Checkout</span></a></li>
+        </ul>
       </nav>
+      --->
+
+      <nav class="navbar">
+        <!-- [THE HAMBURGER] -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+        <a class="button-nav" href="index.html">Lingo</a>
+        <!-- [MENU ITEMS] -->
+        <div class="navitems">
+          <a class="button-nav" href="index.html"><span>Home</span></a>
+          <a class="button-nav" href="listing.html"><span>Browse</span></a>
+          <a class="button-nav" href="aboutus.html"><span>About Us</span></a>
+          <a class="button-nav" href="cart.html"><span>Checkout</span></a>
+        </div>
+      </nav>
+
     </section>
 
     <!---REFERENCE:
