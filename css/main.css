@@ -136,12 +136,13 @@ https://www.w3schools.com/css/css3_buttons.asp
 ****************************************/
 
 .button-nav {
-  display: inline-block;
   font-family: "Montserrat";
   font-weight: bold;
+  display: inline-block;
   padding: 1.5rem;
   color: #000;
   background-color: white;
+  text-align: center;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.2s;
@@ -440,13 +441,36 @@ https://www.w3schools.com/css/css_navbar.asp
 https://www.w3schools.com/howto/howto_css_responsive_header.asp
 ***************************************/
 
+/***
 .navbar {
   background-color: white;
-  overflow: hidden;
   border-bottom: darkgrey solid 0.1rem;
   width: 100%;
   margin-bottom: 2rem;
+  position: fixed;
+} ***/
+
+.navbar {
+  background: white;
+  border-bottom: darkgrey solid 0.1rem;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  position: sticky;
 }
+
+/*** 
+Hide hamburguer in regular view
+ ***/
+.navbar label, #hamburger { 
+  display: none; 
+}
+
+.navitems { 
+  display: flex; 
+  float: right;
+}
+
 
 /*******************************
 PRODUCT LISTING SECTION HERE
@@ -714,5 +738,38 @@ tablet/mobile sizes and smaller
     width: 100%;
     justify-self: center;
     align-self: center;
+  }
+}
+
+/**
+FOR NAVIGATION BAR HAMBURGER MENU
+**/
+@media screen and (max-width: 50rem){
+  /**
+  Navbar hamburger icon on mobile view
+  **/
+  .navbar label { 
+    display: inline-block; 
+    color: white;
+    background: #89B0AE; 
+    font-style: normal;
+    padding: 0.9rem;
+  }
+  .navitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 0.1rem solid #89B0AE;
+  }
+  /**
+  Toggles the hamburger icon in mobile view
+  **/
+  .navitems { 
+    display: none; 
+    float: none;
+  }
+  .navbar input:checked ~ .navitems { 
+    display: block; 
+    float: none;
   }
 }
