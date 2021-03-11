@@ -448,15 +448,6 @@ https://www.w3schools.com/css/css_navbar.asp
 https://www.w3schools.com/howto/howto_css_responsive_header.asp
 ***************************************/
 
-/***
-.navbar {
-  background-color: white;
-  border-bottom: darkgrey solid 0.1rem;
-  width: 100%;
-  margin-bottom: 2rem;
-  position: fixed;
-} ***/
-
 .navbar {
   background: white;
   border-bottom: darkgrey solid 0.1rem;
@@ -466,9 +457,13 @@ https://www.w3schools.com/howto/howto_css_responsive_header.asp
   position: sticky;
 }
 
+.navbar img{
+  vertical-align: bottom;
+}
+
 /*** 
 Hide hamburguer in regular view
- ***/
+***/
 
 .navbar label, #hamburger {
   display: none;
@@ -822,7 +817,7 @@ FOR NAVIGATION BAR HAMBURGER MENU
     color: white;
     background: #89B0AE;
     font-style: normal;
-    padding: 0.9rem;
+    padding: 1.25rem;
   }
   .navitems a {
     box-sizing: border-box;
