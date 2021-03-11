@@ -651,8 +651,8 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
 .payment-form {
   font-family: "Raleway";
   padding-top: 2rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: 4rem;
   margin-right: 2rem;
   margin-left: 2rem;
@@ -664,6 +664,15 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   display: flex;
   flex-direction: row;
 }
+.payment-form .details .left{
+  flex: 10 1 70%;
+  margin-right: 1rem;
+  border-right: 1rem #000;
+}
+
+.payment-form .details .right{
+  flex: 10 1 30%;
+}
 
 .payment-form .details label {
   flex: none;
@@ -673,6 +682,8 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   margin-bottom: 1rem;
   margin-right: 1rem;
 }
+
+
 
 .payment-form .details input[type=text], .details input[type=month], .details input[type=email], .details input[type=tel] {
   flex: 1 0 auto;
