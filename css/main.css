@@ -60,9 +60,27 @@ code {
 
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
+}
+
+/**About us image container
+**/
+
+.aboutus {
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+}
+
+.aboutus .left-side{
+  float: left;
+  margin-right: 2rem;
+  flex: 10 1 20%;
+}
+
+.aboutus .right-side {
+  float:right;
+  flex: 10 1 75%;
 }
 
 /****************************
@@ -137,9 +155,7 @@ https://www.w3schools.com/css/css3_buttons.asp
 
 @font-face {
   font-family: "font-logo";
-  src: url('/IAT339_P02/fonts/Transmetals.ttf') format('truetype'),
-  url('/IAT339_P02/fonts/transmetals-webfont.woff2') format('woff2'),
-  url('/IAT339_P02/fonts/transmetals-webfont.woff') format('woff');
+  src: url('/IAT339_P02/fonts/Transmetals.ttf') format('truetype'), url('/IAT339_P02/fonts/transmetals-webfont.woff2') format('woff2'), url('/IAT339_P02/fonts/transmetals-webfont.woff') format('woff');
 }
 
 .button-nav {
@@ -457,7 +473,7 @@ https://www.w3schools.com/howto/howto_css_responsive_header.asp
   position: sticky;
 }
 
-.navbar img{
+.navbar img {
   margin-left: 0.5rem;
   vertical-align: bottom;
 }
@@ -715,7 +731,9 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
 }
 
 /*Carousel Scrollable Gallery*/
+
 /*container*/
+
 .gallery {
   box-sizing: border-box;
   height: 100%;
@@ -738,7 +756,7 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   overflow-x: hidden;
 }
 
-.slides > div {
+.slides>div {
   width: 30rem;
   height: 30rem;
   position: relative;
@@ -758,9 +776,9 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   object-fit: cover;
 }
 
-.slider > a {
+.slider>a {
   background: #89B0AE;
-  color:white;
+  color: white;
   text-decoration: none;
   display: inline-flex;
   position: relative;
@@ -771,7 +789,6 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   margin: 1rem;
   border-radius: 30%;
 }
-
 
 /*MEDIA QUERIES*/
 
@@ -802,6 +819,9 @@ tablet/mobile sizes and smaller
     width: 100%;
     justify-self: center;
     align-self: center;
+  }
+  .aboutus{
+    flex-direction: column;
   }
 }
 
