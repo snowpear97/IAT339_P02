@@ -135,6 +135,13 @@ REFERENCE FOR THE ARROWS:
 https://www.w3schools.com/css/css3_buttons.asp
 ****************************************/
 
+@font-face {
+  font-family: "font-logo";
+  src: url('/IAT339_P02/fonts/Transmetals.ttf') format('truetype'),
+  url('/IAT339_P02/fonts/transmetals-webfont.woff2') format('woff2'),
+  url('/IAT339_P02/fonts/transmetals-webfont.woff') format('woff');
+}
+
 .button-nav {
   font-family: "Montserrat";
   font-weight: bold;
@@ -462,15 +469,15 @@ https://www.w3schools.com/howto/howto_css_responsive_header.asp
 /*** 
 Hide hamburguer in regular view
  ***/
-.navbar label, #hamburger { 
-  display: none; 
+
+.navbar label, #hamburger {
+  display: none;
 }
 
-.navitems { 
-  display: flex; 
+.navitems {
+  display: flex;
   float: right;
 }
-
 
 /*******************************
 PRODUCT LISTING SECTION HERE
@@ -716,7 +723,8 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
 /*
 tablet/mobile sizes and smaller
 */
-@media (max-width: 50rem) { 
+
+@media (max-width: 50rem) {
   .payment-form .details {
     flex-direction: column;
   }
@@ -745,14 +753,15 @@ tablet/mobile sizes and smaller
 /**
 FOR NAVIGATION BAR HAMBURGER MENU
 **/
-@media screen and (max-width: 50rem){
+
+@media screen and (max-width: 50rem) {
   /**
   Navbar hamburger icon on mobile view
   **/
-  .navbar label { 
-    display: inline-block; 
+  .navbar label {
+    display: inline-block;
     color: white;
-    background: #89B0AE; 
+    background: #89B0AE;
     font-style: normal;
     padding: 0.9rem;
   }
@@ -765,12 +774,12 @@ FOR NAVIGATION BAR HAMBURGER MENU
   /**
   Toggles the hamburger icon in mobile view
   **/
-  .navitems { 
-    display: none; 
+  .navitems {
+    display: none;
     float: none;
   }
-  .navbar input:checked ~ .navitems { 
-    display: block; 
+  .navbar input:checked~.navitems {
+    display: block;
     float: none;
   }
 }
