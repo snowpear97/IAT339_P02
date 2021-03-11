@@ -135,6 +135,13 @@ REFERENCE FOR THE ARROWS:
 https://www.w3schools.com/css/css3_buttons.asp
 ****************************************/
 
+@font-face {
+  font-family: "font-logo";
+  src: url('/IAT339_P02/fonts/Transmetals.ttf') format('truetype'),
+  url('/IAT339_P02/fonts/transmetals-webfont.woff2') format('woff2'),
+  url('/IAT339_P02/fonts/transmetals-webfont.woff') format('woff');
+}
+
 .button-nav {
   font-family: "Montserrat";
   font-weight: bold;
