@@ -8,4 +8,4 @@ Crystal Wei (301360734) + Shirley Liang (301369050)
 
 Due Date for P02: March 18th 2021
 
-Current Week: March 4 P02 Weekly Check
+Current Week: March 11 P02 Weekly Check
