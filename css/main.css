@@ -453,6 +453,10 @@ https://blog.prototypr.io/create-beautiful-numbered-lists-with-css-counters-726e
   box-sizing: border-box;
 }
 
+.rating-check{
+    color: orange;
+}
+
 /* 
   COMBINED ELEMENTS -------------------
 */
