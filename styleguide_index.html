@@ -721,6 +721,28 @@
       <h3 class="titles">Carousel Scrollable Gallery</h3>
       <h4>CSS selector:</h4>
       <h4>Sample Code:</h4>
+      <code>
+        &lt;div class="gallery"&gt;<br>
+        &lt;div class="pictures"&gt;<br>
+        &lt;img src="img/genki1_big.jpg"&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div class="pictures"&gt;<br>
+        &lt;img src="img/genki2_big.jpg"&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div class="slides"&gt;<br>
+        &lt;span class="slides-circle" onclick="current(1)"&gt;&lt;/span&gt;<br>
+        &lt;span class="slides-circle" onclick="current(2)">&lt;/span&gt;<br>
+        &lt;script src="scripts/gallery.js"&gt; &lt;/script&gt;<br>
+        &lt;/div&gt;<br>
+      </code>
+      <p>.gallery</p>
+      <p>.gallery .pictures</p>
+      <p>.slides</p>
+      <p> slides-circle</p>
+      <p>galleryactive</p>
+      <h4>Javascript file:</h4>
+      <p>gallery.js</p>
       <h4>Rendered Element:</h4>
       <div class="gallery">
         <div class="pictures">
@@ -743,9 +765,48 @@
       <h3>NOTE: The image gallery in this element doesn't work because of conflict with the standalone gallery above due
         to there being two on the same HTML pages. It should work on the product pages template.</h3>
       <h4>CSS selector:</h4>
+      <p>.product-category</p>
+      <p>.product-category .image-col</p>
+      <p>.product-category .infor-col</p>
       <h4>Sample Code:</h4>
+      <code>
+        &lt;div class="product-container"&gt;<br>
+        &lt;h2&gt;GENKI I: An Integrated Course in Elementary Japanese&lt;/h2&gt;<br>
+        &lt;div class="product-category"&gt;<br>
+        &lt;div class="image-col"&gt;<br>
+        &lt;div class="gallery"&gt;<br>
+        &lt;div class="pictures"&gt;<br>
+        &lt;img src="img/genki1_big.jpg"&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div class="pictures"&gt;<br>
+        &lt;img src="img/genki2_big.jpg"&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div class="slides"&gt;<br>
+        &lt;span class="slides-circle" onclick="current(1)"&gt;&lt;/span&gt;<br>
+        &lt;span class="slides-circle" onclick="current(2)">&lt;/span&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div class="infor-col"&gt;<br>
+        &lt;h3&gt; $70.00&lt;/h3&gt;<br>
+        &lt;h4&gt;The first of the GENKI Japanese textbooks&lt;/h4&gt;<br>
+        &lt;p&gt;Second edition of the most highly regarded teaching text book on the Japanese language, covering
+                speaking, listening, reading, and writing to cultivate overall language ability. Each lesson in the
+                revised edition features a new section dubbed Culture Notes," and now includes the audio CD companion
+                which is in mp3 format ready to install on any music player. In Japanese/English. Distributed by Tsai Fong
+                Books, Inc.&lt;/p&gt;<br>
+                &lt;br&gt;<br>
+                &lt;h5>Details:&lt;/h5&gt;<br>
+                &lt;ul&gt;<br>
+                &lt;li&gt;382 pages&lt;&lt;/li&gt;<br>
+                &lt;li&gt;Item Weight : 816 g&lt;/li&gt;<br>
+                &lt;li&gt;Dimensions : 18.29 x 2.54 x 25.4 cm&lt;/li&gt;<br>
+                &lt;button class="submitreset">Add to Cart&lt;/button&gt;<br>
+                &lt;/div&gt;<br>
+                &lt;/div&gt;<br>
+                &lt;/div&gt;<br>
+      </code>
       <h4>Rendered Element:</h4>
-
       <div class="product-container">
         <h2>GENKI I: An Integrated Course in Elementary Japanese</h2>
         <div class="product-category">
@@ -787,11 +848,34 @@
     <section class="element">
       <h3 class="titles">Testimotional Reviews</h3>
       <h4>CSS selector:</h4>
+      <p>.reviews</p>
+      <p>.reviews .testimonials (for grey box)</p>
       <h4>Sample Code:</h4>
+      <code>
+        &lt;div class="reviews"&gt;<br>
+        &lt;h3&gt;Reviews&lt;/h3&gt;<br>
+        &lt;div&gt;<br>
+        &lt;label for="reviewname"&gt;Name:&lt;/label&gt;<br>
+        &lt;input type="text" id="reviewname" name="reviewname" placeholder="John"&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div&gt;<br>
+        &lt;label for="reviewinput"&gt;Review:&lt;/label&gt;<br>
+        &lt;textarea id="form-message" placeholder="Write your review here">&lt;/textarea&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div class="testimonials"&gt;<br>
+        &lt;h4&gt;&lt;span&gt;John&lt;/span&gt;Jan. 1st 2021&lt;/h4&gt;<br>
+        &lt;p&gt;Great product!&lt;/p&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div class="testimonials"&gt;<br>
+        &lt;h4>&lt;span&gt;Susie&lt;/span&gt;Jan. 4th 2021&lt;/h4&gt;<br>
+        &lt;p&gt;Very nice!&lt;/p&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/div&gt;
+      </code>
       <h4>Rendered Element:</h4>
       <div class="reviews">
         <h3>Reviews</h3>
-        <div class="name-input">
+        <div>
           <label for="reviewname">Name:</label>
           <input type="text" id="reviewname" name="reviewname" placeholder="John">
         </div>
@@ -808,7 +892,6 @@
           <p>Very nice!</p>
         </div>
       </div>
-
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->
 

@@ -862,12 +862,11 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   transition: background-color 1s ease;
 }
 
-.galleryactive, .dot:hover {
+.galleryactive, .slides-circle:hover {
   background-color: #555B6E;
 }
 
 /*MEDIA QUERIES*/
-
 /*
 tablet/mobile sizes and smaller
 */
