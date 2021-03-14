@@ -26,9 +26,9 @@ function scroll(num) {
   }
 
   for (i = 0; i < circle.length; i++) {
-    circle[i].className = circle[i].className.replace(" active", "");
+    circle[i].className = circle[i].className.replace(" galleryactive", "");
   }
   
   gallerySlides[index - 1].style.display = "block";
-  circle[index - 1].className += " active";
+  circle[index - 1].className += " galleryactive";
 }
