@@ -207,15 +207,15 @@ INTEXTLINK
 ***************************/
 
 .intext-link {
-  color: lightgray;
+  color: #41B0B0;
 }
 
 .intext-link:hover, .intext-link:active {
-  color: lightskyblue;
+  color: #89B0AE;
 }
 
 .intext-link:focus {
-  color: mediumslateblue;
+  color: #89B0AE;
 }
 
 /**************************************
