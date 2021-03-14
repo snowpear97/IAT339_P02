@@ -6,7 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Group #7 - P02: Company</title>
-
   <link href="css/main.css" rel="stylesheet">
 
 </head>
@@ -497,80 +496,77 @@
         &lt;label for="phone">Phone:&lt;/label&gt;<br>
         &lt;input type="tel" id="phone"&gt;<br>
         &lt;/div&gt;<br>
+        &lt;form action="confirmed.html"&gt;<br>
         &lt;button class="submitreset"&gt;Submit&lt;/button&gt;<br>
-        &lt;/div>
+        &lt;/form&gt;<br>
+        &lt;/div&gt;
       </code>
       <h4>Rendered element:</h4>
       <div class="payment-form">
         <h2>Shipping and Payment Information</h2>
+        <h3>Billing Address</h3>
+
         <div class="details">
-          <div class="left">
-            <h3>Billing Address</h3>
-            <div class="details">
-              <label for="name">First Name</label>
-              <input type="text" id="fname" name="fname" placeholder="John">
-              <label for="name">Last Name</label>
-              <input type="text" id="lname" name="lname" placeholder="Smith">
-            </div>
-
-            <div class="details">
-              <label for="address">Address</label>
-              <input type="text" id="address" name="address" placeholder="123 South Street">
-            </div>
-
-            <div class="details">
-              <label for="city">City</label>
-              <input type="text" id="city" name="city" placeholder="Vancouver">
-              <label for="postalcode">Postal Code</label>
-              <input type="text" id="postalcode" name="postalcode">
-              <label for="prov">Province</label>
-              <input type="text" id="prov" name="prov" placeholder="BC">
-            </div>
-
-            <h3>Payment</h3>
-            <h4>Select Credit/Debit Card Type</h4>
-            <div>
-              <label class="radio-payment">Visa
-                <input type="radio" checked="checked" name="radio">
-                <span class="radio-selected"></span>
-              </label>
-              <label class="radio-payment">Mastercard
-                <input type="radio" name="radio">
-                <span class="radio-selected"></span>
-              </label>
-            </div>
-
-            <h4>Card Details</h4>
-            <div class="details">
-              <label for="name">Name on card:</label>
-              <input type="text" id="name" name="name" placeholder="John Smith">
-            </div>
-
-            <div class="details">
-              <label for="cardnum">Card #:</label>
-              <input type="text" id="cardnum" name="cardnum" placeholder="1111-2222-3333">
-              <label for="expiredate">Expiry:</label>
-              <input type="month" id="expiredate" name="expiredate">
-              <label for="cvv">CVV:</label>
-              <input type="text" id="cvv" name="cvv" placeholder="123">
-            </div>
-
-            <div class="details">
-              <label for="email">Email:</label>
-              <input type="email" id="email" required>
-              <label for="phone">Phone:</label>
-              <input type="tel" id="phone">
-            </div>
-          </div>
-          <div class = "right">
-            <h3>Summary</h3>
-            <h4>Subtotal: $140.00</h4>
-            <h4>Tax: $16.80</h4>
-            <h4>Shipping: $5.00</h4>
-            <h4>Total: $161.80 </h4>
-          </div>
+          <label for="name">First Name</label>
+          <input type="text" id="fname" name="fname" placeholder="John">
+          <label for="name">Last Name</label>
+          <input type="text" id="lname" name="lname" placeholder="Smith">
         </div>
-        <button class="submitreset">Submit</button>
+
+        <div class="details">
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" placeholder="123 South Street">
+        </div>
+
+        <div class="details">
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" placeholder="Vancouver">
+          <label for="postalcode">Postal Code</label>
+          <input type="text" id="postalcode" name="postalcode">
+          <label for="prov">Province</label>
+          <input type="text" id="prov" name="prov" placeholder="BC">
+        </div>
+
+        <input type="checkbox" id="sameaddress" name="sameaddress" checked>
+        <label for="sameaddress">Shipping address same as billing address</label>
+
+        <h3>Payment</h3>
+        <h4>Select Credit/Debit Card Type</h4>
+        <div>
+          <label class="radio-payment">Visa
+            <input type="radio" checked="checked" name="radio">
+            <span class="radio-selected"></span>
+          </label>
+          <label class="radio-payment">Mastercard
+            <input type="radio" name="radio">
+            <span class="radio-selected"></span>
+          </label>
+        </div>
+
+        <h4>Card Details</h4>
+        <div class="details">
+          <label for="name">Name on card:</label>
+          <input type="text" id="name" name="name" placeholder="John Smith">
+        </div>
+
+        <div class="details">
+          <label for="cardnum">Card #:</label>
+          <input type="text" id="cardnum" name="cardnum" placeholder="1111-2222-3333">
+          <label for="expiredate">Expiry:</label>
+          <input type="month" id="expiredate" name="expiredate">
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" placeholder="123">
+        </div>
+
+        <div class="details">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone">
+        </div>
+        <form action="confirmed.html">
+          <button class="submitreset">Submit</button>
+        </form>
       </div>
     </section>
 
@@ -760,23 +756,22 @@
       <h4>CSS selector:</h4>
       <h4>Sample Code:</h4>
       <h4>Rendered Element:</h4>
-
       <div class="gallery">
-        <div class="slider">
-          <div class="slides">
-            <div id="slide-1">
-              <img alt="placeholder" src="img/genki1_big.jpg">
-            </div>
-            <div id="slide-2">
-              <img alt="placeholder" src="img/genki1_big.jpg">
-            </div>
+        <div class="pictures">
+          <img src="img/genki1_big.jpg">
+        </div>
 
-          </div>
-          <a href="#slide-1">1</a>
-          <a href="#slide-2">2</a>
+        <div class="pictures">
+          <img src="img/genki2_big.jpg">
         </div>
       </div>
 
+      <div class = "slides">
+        <span class="slides-circle" onclick="current(1)"></span>
+        <span class="slides-circle" onclick="current(2)"></span>
+      </div>
+
+      <script src = "scripts/gallery.js"></script>
     </section>
 
   </section>
