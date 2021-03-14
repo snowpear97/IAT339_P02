@@ -340,13 +340,11 @@
       <h4>Rendered element:</h4>
 
       <nav class="navbar">
-        <!-- [THE HAMBURGER] -->
         <label for="hamburger">&#9776;</label>
         <input type="checkbox" id="hamburger" />
         <a href="index.html">
           <img class="img-overlay" alt="Company Logo Icon" src="img/lingologosmall.png">
         </a>
-        <!-- [MENU ITEMS] -->
         <div class="navitems">
           <a class="button-nav" href="index.html"><span>Home</span></a>
           <a class="button-nav" href="listing.html"><span>Browse</span></a>
@@ -718,6 +716,27 @@
     </section>
 
     <section class="element">
+      <h3 class="titles">Carousel Scrollable Gallery</h3>
+      <h4>CSS selector:</h4>
+      <h4>Sample Code:</h4>
+      <h4>Rendered Element:</h4>
+      <div class="gallery">
+        <div class="pictures">
+          <img src="img/genki1_big.jpg">
+        </div>
+
+        <div class="pictures">
+          <img src="img/genki2_big.jpg">
+        </div>
+      </div>
+
+      <div class = "slides">
+        <span class="slides-circle" onclick="current(1)"></span>
+        <span class="slides-circle" onclick="current(2)"></span>
+      </div>
+  </section>
+
+    <section class="element">
       <h3 class="titles">Individual Product Page</h3>
       <h4>CSS selector:</h4>
       <h4>Sample Code:</h4>
@@ -727,7 +746,18 @@
         <h2>GENKI I: An Integrated Course in Elementary Japanese</h2>
         <div class="product-category">
           <div class="image-col">
-            <img alt="genki 1 textbook img" src="img/genki1_big.jpg">
+            <div class="gallery">
+              <div class="pictures">
+                <img src="img/genki1_big.jpg">
+              </div>
+              <div class="pictures">
+                <img src="img/genki2_big.jpg">
+              </div>
+            </div>
+            <div class = "slides">
+              <span class="slides-circle" onclick="current(1)"></span>
+              <span class="slides-circle" onclick="current(2)"></span>
+            </div>
           </div>
           <div class="infor-col">
             <h3> $70.00</h3>
@@ -750,31 +780,6 @@
       </div>
 
     </section>
-
-    <section class="element">
-      <h3 class="titles">Carousel Scrollable Gallery</h3>
-      <h4>CSS selector:</h4>
-      <h4>Sample Code:</h4>
-      <h4>Rendered Element:</h4>
-      <div class="gallery">
-        <div class="pictures">
-          <img src="img/genki1_big.jpg">
-        </div>
-
-        <div class="pictures">
-          <img src="img/genki2_big.jpg">
-        </div>
-      </div>
-
-      <div class = "slides">
-        <span class="slides-circle" onclick="current(1)"></span>
-        <span class="slides-circle" onclick="current(2)"></span>
-      </div>
-
-      <script src = "scripts/gallery.js"></script>
-    </section>
-
-  </section>
   <!-- // COMBINED ELEMENTS SECTION -->
 
   <!---BRANDING, FONTS, ETC-->
@@ -862,6 +867,8 @@
     <div id="cultured-colour">#FAF9F9</div>
     <div id="black">#000</div>
   </section>
+  
+  <!--JAVASCRIPT-->
+  <script src = "scripts/gallery.js"></script>
 </body>
-
 </html>

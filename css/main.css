@@ -764,7 +764,7 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   transition: background-color 1s ease;
 }
 
-.active, .dot:hover {
+.galleryactive, .dot:hover {
   background-color: #555B6E;
 }
 
