@@ -131,7 +131,7 @@ Reviews testimonials section
 **/
 
 .reviews{
-  margin: 2rem;
+  margin: 2.5rem;
 }
 
 .reviews label{
@@ -157,6 +157,7 @@ Reviews testimonials section
   border-radius: 0.2rem;
   padding: 0.2rem;
   background-color: white;
+  margin-bottom: 1rem;
 }
 
 .reviews .testimonials {
@@ -897,6 +898,18 @@ tablet/mobile sizes and smaller
   }
   .aboutus {
     flex-direction: column;
+  }
+  .review textarea{
+    width: 100%;
+  }
+  .review input{
+    width:100%;
+  }
+  .contact input{
+    width:100%;
+  }
+  .contact textarea{
+    width: 100%;
   }
 }
 
