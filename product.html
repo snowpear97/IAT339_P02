@@ -36,7 +36,18 @@
       <h2>GENKI I: An Integrated Course in Elementary Japanese</h2>
       <div class="product-category">
         <div class="image-col">
-          <img alt="genki 1 textbook img" src="img/genki1_big.jpg">
+          <div class="gallery">
+            <div class="pictures">
+              <img src="img/genki1_big.jpg">
+            </div>
+            <div class="pictures">
+              <img src="img/genki2_big.jpg">
+            </div>
+          </div>
+          <div class = "slides">
+            <span class="slides-circle" onclick="current(1)"></span>
+            <span class="slides-circle" onclick="current(2)"></span>
+          </div>
         </div>
         <div class="infor-col">
           <h3> $70.00</h3>
@@ -53,9 +64,7 @@
             <li>Item Weight : 816 g</li>
             <li>Dimensions : 18.29 x 2.54 x 25.4 cm</li>
           </ul>
-          <form action="cart.html">
-            <button class="submitreset">Add to Cart</button>
-          </form>
+          <button class="submitreset">Add to Cart</button>
         </div>
       </div>
     </div>
@@ -68,6 +77,9 @@
       <a href="citations.html">Citations</a>
     </h4>
   </footer>
+  
+  <!--JAVASCRIPT-->
+  <script src = "scripts/gallery.js"></script>
 </body>
 
 </html>
