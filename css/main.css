@@ -159,7 +159,6 @@ Reviews testimonials section
   background-color: white;
 }
 
-
 .reviews .testimonials {
   border: 0.1rem solid #89B0AE;
   background-color: #FAF9F9;
@@ -167,7 +166,7 @@ Reviews testimonials section
   padding-right: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  width: 80%;
+  width: 90%;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -176,6 +175,27 @@ Reviews testimonials section
   font-size: 1.5rem;
   font-weight: bold;
   margin-right: 1rem;
+}
+
+/**Contact us**/
+
+.contact input{
+  display: block;
+  border: 0.1rem solid #89B0AE;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.contact textarea{
+  width: 90%;
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.contact label{
+  display: block;
+  margin-bottom: 0.2rem;
 }
 
 
