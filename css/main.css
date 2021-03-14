@@ -217,6 +217,29 @@ SUBMIT AND RESET BUTTON
   font-weight: bold;
 }
 
+/*BUTTON FOR CONTACT PAGE*/
+.contact-button{
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: #89B0AE;
+  border-radius: 2rem;
+  border: 0.25rem #89B0AE;
+  border-style: solid;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: Montserrat SemiBold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-button:hover , .contact-button:focus{
+  background-color: #FAF9F9;
+  color: #89B0AE;
+}
+
 /***********************************
 INPUT ELEMENTS
 REFERENCE: https://www.w3schools.com/css/css_form.asp
@@ -601,7 +624,7 @@ CHECKOUT CART SECTION
   border-bottom: darkgrey solid 0.1rem;
 }
 
-/**Cart contents*/
+/*Cart Contents*/
 
 .checkout {
   font-family: "Raleway";
