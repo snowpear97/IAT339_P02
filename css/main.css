@@ -320,9 +320,9 @@ REFERENCE: https://www.w3schools.com/css/css_form.asp
 ************************************/
 
 input {
-  border: 0.15rem solid #4a7fb3;
+  border: 0.15rem solid #89B0AE;
   border-radius: 0.4rem;
-  padding: 0.2rem;
+  padding: 0.1rem;
   background-color: white;
 }
 
@@ -333,11 +333,11 @@ input {
 
 .input-stretch:active, .input-stretch:focus {
   width: 75%;
-  border: 0.3rem solid #4a7fb3;
+  border: 0.3rem solid #89B0AE;
 }
 
 .input-gen:focus {
-  border: 0.2rem solid #4a7fb3;
+  border: 0.2rem solid #89B0AE;
 }
 
 /*********************************************
