@@ -165,17 +165,21 @@ Reviews testimonials section
   background-color: #FAF9F9;
   padding-left: 2rem;
   padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   width: 90%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .reviews span {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  margin-right: 1rem;
+  margin-right: 0.75rem;
+}
+
+.reviews h4{
+  margin-bottom: 0.5rem;
 }
 
 /**Contact us**/

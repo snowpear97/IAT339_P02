@@ -99,8 +99,8 @@
 
       <h4>Rendered element:</h4>
       <form>
-        <button class = "submitreset">Submit</button>
-        <button class = "submitreset">Reset</button>
+        <button class="submitreset">Submit</button>
+        <button class="submitreset">Reset</button>
       </form>
     </section>
 
@@ -188,7 +188,7 @@
       </code>
       <h4>Rendered element:</h4>
       <a href="#">
-        <img alt = "placeholder img overlay" class="img-overlay" alt="image as a link" src="img/imglink.png">
+        <img alt="placeholder img overlay" class="img-overlay" alt="image as a link" src="img/imglink.png">
       </a>
     </section>
 
@@ -349,7 +349,7 @@
         <label for="hamburger">&#9776;</label>
         <input type="checkbox" id="hamburger" />
         <a href="index.html">
-          <img alt = "lingo logo" class="img-overlay" alt="Company Logo Icon" src="img/lingologosmall.png">
+          <img alt="lingo logo" class="img-overlay" alt="Company Logo Icon" src="img/lingologosmall.png">
         </a>
         <div class="navitems">
           <a class="button-nav" href="index.html"><span>Home</span></a>
@@ -407,7 +407,6 @@
       <div class="listing">
         <h2>Products</h2>
         <div class="row">
-
           <div class="product">
             <img alt="picture of Genki 1 textbook" src="img/genki1.jpg">
             <h3>GENKI I: An Integrated Course in Elementary Japanese</h3>
@@ -604,28 +603,34 @@
   
           <!---PRODUCT 1-->
           &lt;div class="checkout"&gt;<br>
-          &lt;img alt="picture of Genki 1 textbook" src="img/genki1.jpg"&gt;<br>
+          &lt;a href="product.html"&gt;<br>
+          &lt;img alt="GENKI I Textbook Product Cover" class = "img-overlay" src="img/genki1.jpg"&gt;<br>
+          &lt;/a&gt;<br>
           &lt;div class="product-col"&gt;<br>
-          &lt;h4&gt;Product 1&lt;/h4&gt;<br>
-          &lt;h5&gt;Product Description&lt;/h5&gt;<br>
+          &lt;h4&gt;GENKI I: An Integrated Course in Elementary Japanese&lt;/h4&gt;<br>
+          &lt;h5&gt;The first of the GENKI Japanese textbooks&lt;/h5&gt;<br>
           &lt;/div&gt;<br>
           &lt;div class="quantity-col"&gt;<br>
+          &lt;label for="Amount"&gt;#&lt;/label&gt;<br>
           &lt;input type="number" name="data" placeholder="1"&gt;<br>
           &lt;button&gt;Delete&lt;/button&gt;<br>
           &lt;/div&gt;<br>
           &lt;div class="price-show"&gt;<br>
           &lt;h4&gt;$70.00&lt;/h4&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;/div&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/div&gt;<br>
   
           <!---PRODUCT 2-->
           &lt;div class="checkout"&gt;<br>
-          &lt;img alt="picture of Genki 2 textbook" src="img/genki2.jpg"&gt;<br>
+          &lt;a href="product2.html"&gt;<br>
+          &lt;img alt="GENKI II Textbook Product Cover" class = "img-overlay" src="img/genki2.jpg"&gt;<br>
+          &lt;/a&gt;<br>
           &lt;div class="product-col"&gt;<br>
-          &lt;h4&gt;Product 2&lt;/h4&gt;<br>
-          &lt;h5&gt;Product Description&lt;/h5&gt;<br>
+          &lt;h4&gt;GENKI II: An Integrated Course in Elementary Japanese&lt;/h4&gt;<br>
+          &lt;h5&gt;The second of the GENKI Japanese textbooks&lt;/h5&gt;<br>
           &lt;/div&gt;<br>
           &lt;div class="quantity-col"&gt;<br>
+          &lt;label for="Amount"&gt;#&lt;/label&gt;<br>
           &lt;input type="number" name="data" placeholder="1"&gt;<br>
           &lt;button&gt;Delete&lt;/button&gt;<br>
           &lt;/div&gt;<br>
@@ -637,11 +642,15 @@
           &lt;div class="cart-summary"&gt;<br>
           &lt;div&gt;<br>
           &lt;h4&gt;Subtotal: $140.00&lt;/h4&gt;<br>
-              &lt;h4&gt;Shipping: Calculated Later&lt;/h4&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;button class="submitreset"&gt;Submit and Pay&lt;/button&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;/div&gt;
+          &lt;h4&gt;Tax: $16.80&lt;/h4&gt;<br>
+          &lt;h4&gt;Shipping: $5.00&lt;&lt;/h4&gt;<br>
+          &lt;h3&gt;TOTAL: $161.80&lt;/h3&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;form action="payment.html"&gt;<br>
+          &lt;button class="submitreset"&gt;Submit and Pay&lt;/button&gt;<br>
+          &lt;/form&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/div&gt;
       </code>
 
       <h4>Rendered element:</h4>
@@ -655,12 +664,15 @@
 
         <!---PRODUCT 1-->
         <div class="checkout">
-          <img alt="picture of Genki 1 textbook" src="img/genki1.jpg">
+          <a href="product.html">
+            <img alt="GENKI I Textbook Product Cover" class="img-overlay" src="img/genki1.jpg">
+          </a>
           <div class="product-col">
-            <h4>Product 1</h4>
-            <h5>Product Description</h5>
+            <h4>GENKI I: An Integrated Course in Elementary Japanese</h4>
+            <h5>The first of the GENKI Japanese textbooks</h5>
           </div>
           <div class="quantity-col">
+            <label for="Amount">#</label>
             <input type="number" name="data" placeholder="1">
             <button>Delete</button>
           </div>
@@ -671,12 +683,15 @@
 
         <!---PRODUCT 2-->
         <div class="checkout">
-          <img alt="picture of Genki 2 textbook" src="img/genki2.jpg">
+          <a href="product2.html">
+            <img alt="GENKI II Textbook Product Cover" class="img-overlay" src="img/genki2.jpg">
+          </a>
           <div class="product-col">
-            <h4>Product 2</h4>
-            <h5>Product Description</h5>
+            <h4>GENKI II: An Integrated Course in Elementary Japanese</h4>
+            <h5>The second of the GENKI Japanese textbooks</h5>
           </div>
           <div class="quantity-col">
+            <label for="Amount">#</label>
             <input type="number" name="data" placeholder="1">
             <button>Delete</button>
           </div>
@@ -688,9 +703,13 @@
         <div class="cart-summary">
           <div>
             <h4>Subtotal: $140.00</h4>
-            <h4>Shipping: Calculated Later</h4>
+            <h4>Tax: $16.80</h4>
+            <h4>Shipping: $5.00</h4>
+            <h3>TOTAL: $161.80</h3>
           </div>
-          <button class="submitreset">Submit and Pay</button>
+          <form action="payment.html">
+            <button class="submitreset">Submit and Pay</button>
+          </form>
         </div>
       </div>
     </section>
@@ -751,11 +770,11 @@
       <h4>Rendered Element:</h4>
       <div class="gallery">
         <div class="pictures">
-          <img alt = "picture of genki 1 textbook" src="img/genki1_big.jpg">
+          <img alt="picture of genki 1 textbook" src="img/genki1_big.jpg">
         </div>
 
         <div class="pictures">
-          <img alt = "picture of genki 2 textbook" src="img/genki2_big.jpg">
+          <img alt="picture of genki 2 textbook" src="img/genki2_big.jpg">
         </div>
       </div>
 
@@ -818,10 +837,10 @@
           <div class="image-col">
             <div class="gallery">
               <div class="pictures">
-                <img alt = "picture of genki 1 textbook" src="img/genki1_big.jpg">
+                <img alt="picture of genki 1 textbook" src="img/genki1_big.jpg">
               </div>
               <div class="pictures">
-                <img alt = "picture of genki 2 textbook" src="img/genki2_big.jpg">
+                <img alt="picture of genki 2 textbook" src="img/genki2_big.jpg">
               </div>
             </div>
             <div class="slides">
@@ -888,7 +907,7 @@
           <label for="reviewinput">Review:</label>
           <textarea id="form-message" placeholder="Write your review here"></textarea>
         </div>
-        <button class = "submitreset">Submit</button>
+        <button class="submitreset">Submit</button>
         <div class="testimonials">
           <h4><span>John</span>Jan. 4th 2021</h4>
           <i class="material-icons rating-check">star</i>
