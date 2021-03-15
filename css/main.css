@@ -4,7 +4,7 @@
 */
 
 body {
-  font-family: Lato Light;
+  font-family: 'Lato', sans-serif;
 }
 
 img {
@@ -237,7 +237,7 @@ https://www.w3schools.com/css/css3_buttons.asp
 }
 
 .button-nav {
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   display: inline-block;
   padding: 1.5rem;
@@ -275,7 +275,7 @@ SUBMIT AND RESET BUTTON
 ********************************/
 
 .submitreset {
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 1.5rem;
@@ -309,7 +309,8 @@ SUBMIT AND RESET BUTTON
   border-style: solid;
   text-align: center;
   font-size: 1.25rem;
-  font-family: Montserrat SemiBold;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   text-decoration: none;
   cursor: pointer;
 }
@@ -358,7 +359,7 @@ https://markheath.net/post/customize-radio-button-css
 }
 
 .radio label {
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   background-color: white;
   color: #5db2d7;
@@ -366,7 +367,7 @@ https://markheath.net/post/customize-radio-button-css
   padding-left: 0.5rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   border: 0.12rem solid #5db2d7;
   border-radius: 0.75rem;
   margin: 0.5rem;
@@ -492,26 +493,26 @@ TEXT ELEMENTS -------------------
 *******************************/
 
 h2 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
 h3 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
 }
 
 h4 {
-  font-family: "Lato Light";
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
 
 .sub2 {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
 }
 
 p {
-  font-family: "Lato Light";
+  font-family: 'Lato', sans-serif;
 }
 
 /*****************************
@@ -541,7 +542,7 @@ https://blog.prototypr.io/create-beautiful-numbered-lists-with-css-counters-726e
 
 .num-list:before {
   content: counter(numlist);
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   background: #89B0AE;
   color: white;
   border-radius: 50%;
@@ -618,7 +619,7 @@ https://www.w3schools.com/howto/howto_css_product_card.asp
 }
 
 .listing .product {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   margin-bottom: 0.2rem;
   margin-top: 2rem;
   padding: 1rem;
@@ -706,7 +707,7 @@ CHECKOUT CART SECTION
 /*Cart Contents*/
 
 .checkout {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   padding: 1rem;
   display: flex;
   flex-direction: row;
@@ -730,7 +731,7 @@ CHECKOUT CART SECTION
 }
 
 .checkout button {
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   border: none;
   outline: 0;
   padding: 0.3rem;
@@ -755,7 +756,7 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
 ************************/
 
 .payment-form {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
