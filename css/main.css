@@ -819,6 +819,19 @@ REFERENCE: https://codepen.io/rstrahl/pen/rxmjgL
   margin-right: 2rem;
 }
 
+.footer a, .footer a:visited{
+  text-decoration: none;
+  color: #555B6E;
+}
+
+.footer a:hover, .footer a:focus{
+  text-decoration: underline;
+  font-weight: bold;
+  color: #FAF9F9;
+}
+
+
+
 /*INDIVIDUAL PRODUCT PAGE*/
 
 .product-container {
