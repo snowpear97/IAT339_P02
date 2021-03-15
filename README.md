@@ -1,11 +1,11 @@
 # IAT339_P02
-##IAT 339 P02 Company — Group Project
+## IAT 339 P02 Company — Group Project
 
-##Section D201 - Group 7
+## Section D201 - Group 7
 
 Crystal Wei (301360734) + Shirley Liang (301369050)
 
 
 Due Date for P02: March 18th 2021
 
-Current Week: March 11 P02 Weekly Check
+FINAL SUBMISSION
