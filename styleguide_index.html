@@ -54,7 +54,7 @@
     <h2>Interactive Elements</h2>
 
     <section class="element">
-      <h3 class="titles">In-text link</h3>
+      <h3 class="titles">In-Text Link</h3>
       <h4>CSS selector</h4>
       <p>.intext-link</p>
       <h4>Sample Code</h4>
@@ -188,14 +188,11 @@
       </code>
       <h4>Rendered element:</h4>
       <a href="#">
-        <img alt="placeholder img overlay" class="img-overlay" alt="image as a link" src="img/imglink.png">
+        <img class="img-overlay" alt="Example of an Image as a Link" src="img/imglink.png">
       </a>
     </section>
-
-
   </section>
   <!-- // INTERACTIVE ELEMENTS SECTION -->
-
 
 
   <!-- TEXT ELEMENTS SECTION // -->
@@ -349,7 +346,7 @@
         <label for="hamburger">&#9776;</label>
         <input type="checkbox" id="hamburger" />
         <a href="index.html">
-          <img alt="lingo logo" class="img-overlay" alt="Company Logo Icon" src="img/lingologosmall.png">
+          <img class="img-overlay" alt="Company Logo Icon" src="img/lingologosmall.png">
         </a>
         <div class="navitems">
           <a class="button-nav" href="index.html"><span>Home</span></a>
@@ -361,21 +358,22 @@
       </nav>
 
     </section>
+  </section>
 
-    <!---REFERENCE:
+  <!---REFERENCE:
       https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
       https://www.w3schools.com/howto/howto_css_product_card.asp
       -->
-    <section class="element">
-      <h3 class="titles">Product/Service Listing</h3>
-      <h4>CSS selector:</h4>
-      <p>
-        .listing (container)<br>
-        .listing .row (flexbox row displays)<br>
-        .listing .row .product (displays the product information inside container)
-      </p>
-      <h4>Sample code:</h4>
-      <code>
+  <section class="element">
+    <h3 class="titles">Product/Service Listing</h3>
+    <h4>CSS selector:</h4>
+    <p>
+      .listing (container)<br>
+      .listing .row (flexbox row displays)<br>
+      .listing .row .product (displays the product information inside container)
+    </p>
+    <h4>Sample code:</h4>
+    <code>
         &lt;div class="listing"&gt;<br>
           &lt;h2&gt;Products&lt;/h2&gt;<br>
           &lt;div class="row"&gt;
@@ -402,46 +400,46 @@
           &lt;/div&gt;<br>
         &lt;/div&gt;
       </code>
-      <br><br>
-      <h4>Rendered element:</h4>
-      <div class="listing">
-        <h2>Products</h2>
-        <div class="row">
-          <div class="product">
-            <img alt="picture of Genki 1 textbook" src="img/genki1.jpg">
-            <h3>GENKI I: An Integrated Course in Elementary Japanese</h3>
-            <h4>The first of the GENKI Japanese textbooks</h4>
-            <button>
-              <span class="price">$70.00</span>
-              <span class="cart">Add to Cart</span>
-            </button>
-          </div>
+    <br><br>
+    <h4>Rendered element:</h4>
+    <div class="listing">
+      <h2>Products</h2>
+      <div class="row">
+        <div class="product">
+          <img alt="picture of Genki 1 textbook" src="img/genki1.jpg">
+          <h3>GENKI I: An Integrated Course in Elementary Japanese</h3>
+          <h4>The first of the GENKI Japanese textbooks</h4>
+          <button>
+            <span class="price">$70.00</span>
+            <span class="cart">Add to Cart</span>
+          </button>
+        </div>
 
-          <div class="product">
-            <img alt="picture of Genki 2 textbook" src="img/genki2.jpg">
-            <h3>GENKI II: An Integrated Course in Elementary Japanese </h3>
-            <h4>The second of the GENKI Japanese textbooks</h4>
-            <button>
-              <span class="price">$70.00</span>
-              <span class="cart">Add to Cart</span>
-            </button>
-          </div>
+        <div class="product">
+          <img alt="picture of Genki 2 textbook" src="img/genki2.jpg">
+          <h3>GENKI II: An Integrated Course in Elementary Japanese </h3>
+          <h4>The second of the GENKI Japanese textbooks</h4>
+          <button>
+            <span class="price">$70.00</span>
+            <span class="cart">Add to Cart</span>
+          </button>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!---REFERENCE:
+  <!---REFERENCE:
       https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
       -->
-    <section class="element">
-      <h3 class="titles">Payment Form</h3>
-      <h4>CSS selector:</h4>
-      <p>
-        .payment-form (container)<br>
-        .payment-form .details
-      </p>
-      <h4>Sample code:</h4>
-      <code>
+  <section class="element">
+    <h3 class="titles">Payment Form</h3>
+    <h4>CSS selector:</h4>
+    <p>
+      .payment-form (container)<br>
+      .payment-form .details
+    </p>
+    <h4>Sample code:</h4>
+    <code>
         &lt;div class="payment-form"&gt;<br>
         &lt;h2&gt;Shipping and Payment Information&lt;/h2&gt;<br>
         &lt;h3&gt;Billing Address&lt;/h3&gt;<br>
@@ -505,94 +503,94 @@
         &lt;/form&gt;<br>
         &lt;/div&gt;
       </code>
-      <h4>Rendered element:</h4>
-      <div class="payment-form">
-        <h2>Shipping and Payment Information</h2>
-        <h3>Billing Address</h3>
+    <h4>Rendered element:</h4>
+    <div class="payment-form">
+      <h2>Shipping and Payment Information</h2>
+      <h3>Billing Address</h3>
 
-        <div class="details">
-          <label for="name">First Name</label>
-          <input type="text" id="fname" name="fname" placeholder="John">
-          <label for="name">Last Name</label>
-          <input type="text" id="lname" name="lname" placeholder="Smith">
-        </div>
-
-        <div class="details">
-          <label for="address">Address</label>
-          <input type="text" id="address" name="address" placeholder="123 South Street">
-        </div>
-
-        <div class="details">
-          <label for="city">City</label>
-          <input type="text" id="city" name="city" placeholder="Vancouver">
-          <label for="postalcode">Postal Code</label>
-          <input type="text" id="postalcode" name="postalcode">
-          <label for="prov">Province</label>
-          <input type="text" id="prov" name="prov" placeholder="BC">
-        </div>
-
-        <input type="checkbox" id="sameaddress" name="sameaddress" checked>
-        <label for="sameaddress">Shipping address same as billing address</label>
-
-        <h3>Payment</h3>
-        <h4>Select Credit/Debit Card Type</h4>
-        <div>
-          <label class="radio-payment">Visa
-            <input type="radio" checked="checked" name="radio">
-            <span class="radio-selected"></span>
-          </label>
-          <label class="radio-payment">Mastercard
-            <input type="radio" name="radio">
-            <span class="radio-selected"></span>
-          </label>
-        </div>
-
-        <h4>Card Details</h4>
-        <div class="details">
-          <label for="name">Name on card:</label>
-          <input type="text" id="name" name="name" placeholder="John Smith">
-        </div>
-
-        <div class="details">
-          <label for="cardnum">Card #:</label>
-          <input type="text" id="cardnum" name="cardnum" placeholder="1111-2222-3333">
-          <label for="expiredate">Expiry:</label>
-          <input type="month" id="expiredate" name="expiredate">
-          <label for="cvv">CVV:</label>
-          <input type="text" id="cvv" name="cvv" placeholder="123">
-        </div>
-
-        <div class="details">
-          <label for="email">Email:</label>
-          <input type="email" id="email" required>
-          <label for="phone">Phone:</label>
-          <input type="tel" id="phone">
-        </div>
-        <form action="confirmed.html">
-          <button class="submitreset">Submit</button>
-        </form>
+      <div class="details">
+        <label for="name">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="John">
+        <label for="name">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Smith">
       </div>
-    </section>
 
-    <!---REFERENCE FOR SHOPPING CART
+      <div class="details">
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" placeholder="123 South Street">
+      </div>
+
+      <div class="details">
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placeholder="Vancouver">
+        <label for="postalcode">Postal Code</label>
+        <input type="text" id="postalcode" name="postalcode">
+        <label for="prov">Province</label>
+        <input type="text" id="prov" name="prov" placeholder="BC">
+      </div>
+
+      <input type="checkbox" id="sameaddress" name="sameaddress" checked>
+      <label for="sameaddress">Shipping address same as billing address</label>
+
+      <h3>Payment</h3>
+      <h4>Select Credit/Debit Card Type</h4>
+      <div>
+        <label class="radio-payment">Visa
+          <input type="radio" checked="checked" name="radio">
+          <span class="radio-selected"></span>
+        </label>
+        <label class="radio-payment">Mastercard
+          <input type="radio" name="radio">
+          <span class="radio-selected"></span>
+        </label>
+      </div>
+
+      <h4>Card Details</h4>
+      <div class="details">
+        <label for="name">Name on card:</label>
+        <input type="text" id="name" name="name" placeholder="John Smith">
+      </div>
+
+      <div class="details">
+        <label for="cardnum">Card #:</label>
+        <input type="text" id="cardnum" name="cardnum" placeholder="1111-2222-3333">
+        <label for="expiredate">Expiry:</label>
+        <input type="month" id="expiredate" name="expiredate">
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" placeholder="123">
+      </div>
+
+      <div class="details">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone">
+      </div>
+      <form action="confirmed.html">
+        <button class="submitreset">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!---REFERENCE FOR SHOPPING CART
       https://www.smashingmagazine.com/2019/08/shopping-cart-html5-web-storage/
     -->
-    <section class="element">
-      <h3 class="titles">Checkout Cart</h3>
-      <h4>CSS selector:</h4>
-      <p>
-        .mycart (container for the entire checkout cart)<br>
-        .mycart .product-col (flexbox selector for product column)<br>
-        .mycart .quantity-col (flexbox selector for quantity column)<br>
-        .mycart .price-col (flexbox selector for price column)<br>
-        .mycart .price-show (flexbox selector for price column to display price in media query)<br>
-        .checkout-category (container for the top row of checkout to display categories)<br>
-        .checkout (container for the items inside the cart)<br>
-        .cart-summary (selector for the subtotal and submit button at bottom of cart)
-      </p>
+  <section class="element">
+    <h3 class="titles">Checkout Cart</h3>
+    <h4>CSS selector:</h4>
+    <p>
+      .mycart (container for the entire checkout cart)<br>
+      .mycart .product-col (flexbox selector for product column)<br>
+      .mycart .quantity-col (flexbox selector for quantity column)<br>
+      .mycart .price-col (flexbox selector for price column)<br>
+      .mycart .price-show (flexbox selector for price column to display price in media query)<br>
+      .checkout-category (container for the top row of checkout to display categories)<br>
+      .checkout (container for the items inside the cart)<br>
+      .cart-summary (selector for the subtotal and submit button at bottom of cart)
+    </p>
 
-      <h4>Sample code:</h4>
-      <code>
+    <h4>Sample code:</h4>
+    <code>
         &lt;div class="mycart"&gt;<br>
         &lt;h2>My Cart&lt;/h2&gt;<br>
         &lt;div class="checkout-category"&gt;<br>
@@ -653,75 +651,75 @@
           &lt;/div&gt;
       </code>
 
-      <h4>Rendered element:</h4>
-      <div class="mycart">
-        <h2>My Cart</h2>
-        <div class="checkout-category">
-          <h3 class="product-col">Product</h3>
-          <h3 class="quantity-col">Quantity</h3>
-          <h3 class="price-col">Price</h3>
-        </div>
+    <h4>Rendered element:</h4>
+    <div class="mycart">
+      <h2>My Cart</h2>
+      <div class="checkout-category">
+        <h3 class="product-col">Product</h3>
+        <h3 class="quantity-col">Quantity</h3>
+        <h3 class="price-col">Price</h3>
+      </div>
 
-        <!---PRODUCT 1-->
-        <div class="checkout">
-          <a href="product.html">
-            <img alt="GENKI I Textbook Product Cover" class="img-overlay" src="img/genki1.jpg">
-          </a>
-          <div class="product-col">
-            <h4>GENKI I: An Integrated Course in Elementary Japanese</h4>
-            <h5>The first of the GENKI Japanese textbooks</h5>
-          </div>
-          <div class="quantity-col">
-            <label for="Amount">#</label>
-            <input type="number" name="data" placeholder="1">
-            <button>Delete</button>
-          </div>
-          <div class="price-show">
-            <h4>$70.00</h4>
-          </div>
+      <!---PRODUCT 1-->
+      <div class="checkout">
+        <a href="product.html">
+          <img alt="GENKI I Textbook Product Cover" class="img-overlay" src="img/genki1.jpg">
+        </a>
+        <div class="product-col">
+          <h4>GENKI I: An Integrated Course in Elementary Japanese</h4>
+          <h5>The first of the GENKI Japanese textbooks</h5>
         </div>
-
-        <!---PRODUCT 2-->
-        <div class="checkout">
-          <a href="product2.html">
-            <img alt="GENKI II Textbook Product Cover" class="img-overlay" src="img/genki2.jpg">
-          </a>
-          <div class="product-col">
-            <h4>GENKI II: An Integrated Course in Elementary Japanese</h4>
-            <h5>The second of the GENKI Japanese textbooks</h5>
-          </div>
-          <div class="quantity-col">
-            <label for="Amount">#</label>
-            <input type="number" name="data" placeholder="1">
-            <button>Delete</button>
-          </div>
-          <div class="price-show">
-            <h4>$70.00</h4>
-          </div>
+        <div class="quantity-col">
+          <label for="number1">#</label>
+          <input id="number1" type="number" name="data" placeholder="1">
+          <button>Delete</button>
         </div>
-
-        <div class="cart-summary">
-          <div>
-            <h4>Subtotal: $140.00</h4>
-            <h4>Tax: $16.80</h4>
-            <h4>Shipping: $5.00</h4>
-            <h3>TOTAL: $161.80</h3>
-          </div>
-          <form action="payment.html">
-            <button class="submitreset">Submit and Pay</button>
-          </form>
+        <div class="price-show">
+          <h4>$70.00</h4>
         </div>
       </div>
-    </section>
 
-    <section class="element">
-      <h3 class="titles">Footer</h3>
-      <h4>CSS selector:</h4>
-      <p>
-        .footer (selector for the footer at the bottom of page)
-      </p>
-      <h4>Sample Code:</h4>
-      <code>
+      <!---PRODUCT 2-->
+      <div class="checkout">
+        <a href="product2.html">
+          <img alt="GENKI II Textbook Product Cover" class="img-overlay" src="img/genki2.jpg">
+        </a>
+        <div class="product-col">
+          <h4>GENKI II: An Integrated Course in Elementary Japanese</h4>
+          <h5>The second of the GENKI Japanese textbooks</h5>
+        </div>
+        <div class="quantity-col">
+          <label for="number2">#</label>
+          <input id="number2" type="number" name="data" placeholder="1">
+          <button>Delete</button>
+        </div>
+        <div class="price-show">
+          <h4>$70.00</h4>
+        </div>
+      </div>
+
+      <div class="cart-summary">
+        <div>
+          <h4>Subtotal: $140.00</h4>
+          <h4>Tax: $16.80</h4>
+          <h4>Shipping: $5.00</h4>
+          <h3>TOTAL: $161.80</h3>
+        </div>
+        <form action="payment.html">
+          <button class="submitreset">Submit and Pay</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="element">
+    <h3 class="titles">Footer</h3>
+    <h4>CSS selector:</h4>
+    <p>
+      .footer (selector for the footer at the bottom of page)
+    </p>
+    <h4>Sample Code:</h4>
+    <code>
         &lt;footer class="footer"&gt; <br>
         &lt;h4&gt;Copyright 2021 @ IAT339 D201 - Group 7: Crystal Wei & Shirley Liang | <br>
         &lt;a href="https://github.com/snowpear97/IAT339_P02">Git Respository&lt;/a&gt; | <br>
@@ -731,21 +729,28 @@
         &lt;/footer&gt;
       </code>
 
-      <h4>Rendered Element</h4>
-      <footer class="footer">
-        <h4>Copyright 2021 @ IAT339 D201 - Group 7: Crystal Wei & Shirley Liang |
-          <a href="https://github.com/snowpear97/IAT339_P02">Git Respository</a> |
-          <a href="styleguide_index.html">Styleguide</a> |
-          <a href="citations.html">Citations</a>
-        </h4>
-      </footer>
-    </section>
+    <h4>Rendered Element</h4>
+    <footer class="footer">
+      <h4>Copyright 2021 @ IAT339 D201 - Group 7: Crystal Wei & Shirley Liang |
+        <a href="https://github.com/snowpear97/IAT339_P02">Git Respository</a> |
+        <a href="styleguide_index.html">Styleguide</a> |
+        <a href="citations.html">Citations</a>
+      </h4>
+    </footer>
+  </section>
 
-    <section class="element">
-      <h3 class="titles">Carousel Scrollable Gallery</h3>
-      <h4>CSS selector:</h4>
-      <h4>Sample Code:</h4>
-      <code>
+  <section class="element">
+    <h3 class="titles">Carousel Scrollable Gallery</h3>
+    <h4>CSS selector:</h4>
+    <p>.gallery</p>
+    <p>.gallery .pictures</p>
+    <p>.slides</p>
+    <p> slides-circle</p>
+    <p>galleryactive</p>
+    <h4>Javascript file:</h4>
+    <p>gallery.js</p>
+    <h4>Sample Code:</h4>
+    <code>
         &lt;div class="gallery"&gt;<br>
         &lt;div class="pictures"&gt;<br>
         &lt;img alt = "picture of genki 1 textbook" src="img/genki1_big.jpg"&gt;<br>
@@ -760,40 +765,34 @@
         &lt;script src="scripts/gallery.js"&gt; &lt;/script&gt;<br>
         &lt;/div&gt;<br>
       </code>
-      <p>.gallery</p>
-      <p>.gallery .pictures</p>
-      <p>.slides</p>
-      <p> slides-circle</p>
-      <p>galleryactive</p>
-      <h4>Javascript file:</h4>
-      <p>gallery.js</p>
-      <h4>Rendered Element:</h4>
-      <div class="gallery">
-        <div class="pictures">
-          <img alt="picture of genki 1 textbook" src="img/genki1_big.jpg">
-        </div>
 
-        <div class="pictures">
-          <img alt="picture of genki 2 textbook" src="img/genki2_big.jpg">
-        </div>
+    <h4>Rendered Element:</h4>
+    <div class="gallery">
+      <div class="pictures">
+        <img alt="picture of genki 1 textbook" src="img/genki1_big.jpg">
       </div>
 
-      <div class="slides">
-        <span class="slides-circle" onclick="current(1)"></span>
-        <span class="slides-circle" onclick="current(2)"></span>
+      <div class="pictures">
+        <img alt="picture of genki 2 textbook" src="img/genki2_big.jpg">
       </div>
-    </section>
+    </div>
 
-    <section class="element">
-      <h3 class="titles">Individual Product Page</h3>
-      <h3>NOTE: The image gallery in this element doesn't work because of conflict with the standalone gallery above due
-        to there being two on the same HTML pages. It should work on the product pages template.</h3>
-      <h4>CSS selector:</h4>
-      <p>.product-category</p>
-      <p>.product-category .image-col</p>
-      <p>.product-category .infor-col</p>
-      <h4>Sample Code:</h4>
-      <code>
+    <div class="slides">
+      <span class="slides-circle" onclick="current(1)"></span>
+      <span class="slides-circle" onclick="current(2)"></span>
+    </div>
+  </section>
+
+  <section class="element">
+    <h3 class="titles">Individual Product Page</h3>
+    <h3>NOTE: The image gallery in this element doesn't work because of conflict with the standalone gallery above due
+      to there being two on the same HTML pages. It should work on the product pages template.</h3>
+    <h4>CSS selector:</h4>
+    <p>.product-category</p>
+    <p>.product-category .image-col</p>
+    <p>.product-category .infor-col</p>
+    <h4>Sample Code:</h4>
+    <code>
         &lt;div class="product-container"&gt;<br>
         &lt;h2&gt;GENKI I: An Integrated Course in Elementary Japanese&lt;/h2&gt;<br>
         &lt;div class="product-category"&gt;<br>
@@ -830,52 +829,52 @@
                 &lt;/div&gt;<br>
                 &lt;/div&gt;<br>
       </code>
-      <h4>Rendered Element:</h4>
-      <div class="product-container">
-        <h2>GENKI I: An Integrated Course in Elementary Japanese</h2>
-        <div class="product-category">
-          <div class="image-col">
-            <div class="gallery">
-              <div class="pictures">
-                <img alt="picture of genki 1 textbook" src="img/genki1_big.jpg">
-              </div>
-              <div class="pictures">
-                <img alt="picture of genki 2 textbook" src="img/genki2_big.jpg">
-              </div>
+    <h4>Rendered Element:</h4>
+    <div class="product-container">
+      <h2>GENKI I: An Integrated Course in Elementary Japanese</h2>
+      <div class="product-category">
+        <div class="image-col">
+          <div class="gallery">
+            <div class="pictures">
+              <img alt="picture of genki 1 textbook" src="img/genki1_big.jpg">
             </div>
-            <div class="slides">
-              <span class="slides-circle" onclick="current(1)"></span>
-              <span class="slides-circle" onclick="current(2)"></span>
+            <div class="pictures">
+              <img alt="picture of genki 2 textbook" src="img/genki2_big.jpg">
             </div>
           </div>
-          <div class="infor-col">
-            <h3> $70.00</h3>
-            <h4>The first of the GENKI Japanese textbooks</h4>
-            <p>Second edition of the most highly regarded teaching text book on the Japanese language, covering
-              speaking, listening, reading, and writing to cultivate overall language ability. Each lesson in the
-              revised edition features a new section dubbed Culture Notes," and now includes the audio CD companion
-              which is in mp3 format ready to install on any music player. In Japanese/English. Distributed by Tsai Fong
-              Books, Inc.</p>
-            <br>
-            <h5>Details:</h5>
-            <ul>
-              <li>382 pages</li>
-              <li>Item Weight : 816 g</li>
-              <li>Dimensions : 18.29 x 2.54 x 25.4 cm</li>
-            </ul>
-            <button class="submitreset">Add to Cart</button>
+          <div class="slides">
+            <span class="slides-circle" onclick="current(1)"></span>
+            <span class="slides-circle" onclick="current(2)"></span>
           </div>
         </div>
+        <div class="infor-col">
+          <h3> $70.00</h3>
+          <h4>The first of the GENKI Japanese textbooks</h4>
+          <p>Second edition of the most highly regarded teaching text book on the Japanese language, covering
+            speaking, listening, reading, and writing to cultivate overall language ability. Each lesson in the
+            revised edition features a new section dubbed Culture Notes," and now includes the audio CD companion
+            which is in mp3 format ready to install on any music player. In Japanese/English. Distributed by Tsai Fong
+            Books, Inc.</p>
+          <br>
+          <h5>Details:</h5>
+          <ul>
+            <li>382 pages</li>
+            <li>Item Weight : 816 g</li>
+            <li>Dimensions : 18.29 x 2.54 x 25.4 cm</li>
+          </ul>
+          <button class="submitreset">Add to Cart</button>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="element">
-      <h3 class="titles">Testimotional Reviews</h3>
-      <h4>CSS selector:</h4>
-      <p>.reviews</p>
-      <p>.reviews .testimonials (for grey box)</p>
-      <h4>Sample Code:</h4>
-      <code>
+  <section class="element">
+    <h3 class="titles">Testimotional Reviews</h3>
+    <h4>CSS selector:</h4>
+    <p>.reviews</p>
+    <p>.reviews .testimonials (for grey box)</p>
+    <h4>Sample Code:</h4>
+    <code>
         &lt;div class="reviews"&gt;<br>
         &lt;h3&gt;Reviews&lt;/h3&gt;<br>
         &lt;div&gt;<br>
@@ -884,7 +883,7 @@
         &lt;/div&gt;<br>
         &lt;div&gt;<br>
         &lt;label for="reviewinput"&gt;Review:&lt;/label&gt;<br>
-        &lt;textarea id="form-message" placeholder="Write your review here">&lt;/textarea&gt;<br>
+        &lt;textarea id="reviewinput" placeholder="Write your review here">&lt;/textarea&gt;<br>
         &lt;/div&gt;<br>
         &lt;div class="testimonials"&gt;<br>
         &lt;h4&gt;&lt;span&gt;John&lt;/span&gt;Jan. 1st 2021&lt;/h4&gt;<br>
@@ -896,130 +895,130 @@
           &lt;/div&gt;<br>
           &lt;/div&gt;
       </code>
-      <h4>Rendered Element:</h4>
-      <div class="reviews">
-        <h3>Reviews</h3>
-        <div>
-          <label for="reviewname">Name:</label>
-          <input type="text" id="reviewname" name="reviewname" placeholder="Name">
-        </div>
-        <div>
-          <label for="reviewinput">Review:</label>
-          <textarea id="form-message" placeholder="Write your review here"></textarea>
-        </div>
-        <button class="submitreset">Submit</button>
-        <div class="testimonials">
-          <h4><span>John</span>Jan. 4th 2021</h4>
-          <i class="material-icons rating-check">star</i>
-          <i class="material-icons rating-check">star</i>
-          <i class="material-icons rating-check">star</i>
-          <i class="material-icons rating-check">star</i>
-          <i class="material-icons rating-check">star</i>
-          <p>Great product!</p>
-        </div>
-        <div class="testimonials">
-          <h4><span>Susie</span>Jan. 1st 2021</h4>
-          <i class="material-icons rating-check">star</i>
-          <i class="material-icons rating-check">star</i>
-          <i class="material-icons rating-check">star</i>
-          <i class="material-icons rating-check">star</i>
-          <i class="material-icons rating-check">star</i>
-          <p>Very nice!</p>
-        </div>
-      </div>
-    </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
-
-    <!---BRANDING, FONTS, ETC-->
-    <section id="branding">
-      <h2>Branding</h2>
-
-      <section class="element">
-        <h3 class="titles">Basic Branding Ideas</h3>
-        <h4>What does the company do?</h4>
-        <p>
-          The idea behind the company we want to create is a bookstore that sells books for language learners
-          specifically.
-          There are many bookstores that sell various types of fiction and non fiction books, but we wanted to make a
-          specific business that sells books for people who are trying to learn a new language. Examples of products
-          that
-          could be sold are language dictionaries, and textbooks for various different languages, and possibly media in
-          other languages for consumption.</p>
-        <p></p>
-        <h4>Who is the company to potential customers?</h4>
-        <p>
-          The company is a source of information to potential customers. The company provides informations for language
-          learners, and in essence the company is a gateway to basic learning resources for language learners. While it
-          may be smaller compared to big retailers like Amazon which sells everything, the company will have more
-          specialized books on languages for language learners who want to go further, or linguists who wants to study
-          the language in detail.
-        </p>
-        <h4>Why might this company entice someone to purchase a product or service?</h4>
-        <p>
-          This company will provide a niche to language learners only. Since it is a hub where all types of books for
-          language learning is available at, those who are dedicated to learning a language would possibly browse
-          through
-          the selection available to see what books would fit their needs. Possibly, it may be recommended by professors
-          or teachers who are teaching the language, as it provides a resource for students to gather all relevant
-          material for study of another language.
-        </p>
-      </section>
-    </section>
-
-    <section class="element">
-      <h3 class="titles">Typography</h3>
-
-      <h2 class="main-headings">Montserrat</h2>
-      <h3 class="subheadings"> Raleway</h3>
-      <p class="para">
-        [Lato] <br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus libero, tristique sit
-        amet turpis
-        ac, rhoncus vehicula lacus. Quisque a lobortis libero. Nulla pellentesque faucibus libero quis feugiat.
-        Curabitur et leo justo. In molestie sem urna, commodo suscipit ligula vulputate vitae. Vestibulum fringilla
-        accumsan malesuada. Quisque convallis euismod quam, nec consequat mauris condimentum sed. Integer ut varius
-        ex. Duis rutrum orci vel gravida scelerisque. Ut ut risus massa. In placerat ante vitae nisi faucibus, sed
-        pulvinar nulla auctor. Nulla a elit vel elit luctus porttitor a tempor ante. Integer aliquam odio ac porttitor
-        sodales. Vestibulum dui justo, mattis et lorem a, molestie pellentesque risus.
-      </p>
-
-      <h3 class="secondary-headings"> Raleway</h3>
-      <h4 class="subheading2">Raleway</h4>
-      <p class="para">
-        [Lato] <br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus libero, tristique sit
-        amet turpis
-        ac, rhoncus vehicula lacus. Quisque a lobortis libero. Nulla pellentesque faucibus libero quis feugiat.
-        Curabitur et leo justo. In molestie sem urna, commodo suscipit ligula vulputate vitae. Vestibulum fringilla
-        accumsan malesuada. Quisque convallis euismod quam, nec consequat mauris condimentum sed. Integer ut varius
-        ex. Duis rutrum orci vel gravida scelerisque. Ut ut risus massa. In placerat ante vitae nisi faucibus, sed
-        pulvinar nulla auctor. Nulla a elit vel elit luctus porttitor a tempor ante. Integer aliquam odio ac porttitor
-        sodales. Vestibulum dui justo, mattis et lorem a, molestie pellentesque risus.
-      </p>
-
-      <br>
+    <h4>Rendered Element:</h4>
+    <div class="reviews">
+      <h3>Reviews</h3>
       <div>
-        <h4>Raleway</h4>
-        <a href="https://fonts.google.com/specimen/Raleway">Font Link</a>
-        <h4>Montserrat</h4>
-        <a href="https://fonts.google.com/specimen/Montserrat">Font Link</a>
-        <h4>Lato</h4>
-        <a href="https://fonts.google.com/specimen/Lato">Font Link</a>
+        <label for="reviewname">Name:</label>
+        <input type="text" id="reviewname" name="reviewname" placeholder="Name">
       </div>
-    </section>
+      <div>
+        <label for="reviewinput">Review:</label>
+        <textarea id="reviewinput" name="reviewname" placeholder="Write your review here"></textarea>
+      </div>
+      <button class="submitreset">Submit</button>
+      <div class="testimonials">
+        <h4><span>John</span>Jan. 4th 2021</h4>
+        <i class="material-icons rating-check">star</i>
+        <i class="material-icons rating-check">star</i>
+        <i class="material-icons rating-check">star</i>
+        <i class="material-icons rating-check">star</i>
+        <i class="material-icons rating-check">star</i>
+        <p>Great product!</p>
+      </div>
+      <div class="testimonials">
+        <h4><span>Susie</span>Jan. 1st 2021</h4>
+        <i class="material-icons rating-check">star</i>
+        <i class="material-icons rating-check">star</i>
+        <i class="material-icons rating-check">star</i>
+        <i class="material-icons rating-check">star</i>
+        <i class="material-icons rating-check">star</i>
+        <p>Very nice!</p>
+      </div>
+    </div>
+  </section>
+  <!-- // COMBINED ELEMENTS SECTION -->
+
+  <!---BRANDING, FONTS, ETC-->
+  <section id="branding">
+    <h2>Branding</h2>
 
     <section class="element">
-      <h3 class="titles">Colour Palette</h3>
-      <div id="independence-colour">#555B6E </div>
-      <div id="morningblue-colour">#89B0AE</div>
-      <div id="verdigris-colour">#41B0B0</div>
-      <div id="newyorkpink-colour">#CC8B86</div>
-      <div id="cultured-colour">#FAF9F9</div>
-      <div id="black">#000</div>
+      <h3 class="titles">Basic Branding Ideas</h3>
+      <h4>What does the company do?</h4>
+      <p>
+        The idea behind the company we want to create is a bookstore that sells books for language learners
+        specifically.
+        There are many bookstores that sell various types of fiction and non fiction books, but we wanted to make a
+        specific business that sells books for people who are trying to learn a new language. Examples of products
+        that
+        could be sold are language dictionaries, and textbooks for various different languages, and possibly media in
+        other languages for consumption.</p>
+      <p></p>
+      <h4>Who is the company to potential customers?</h4>
+      <p>
+        The company is a source of information to potential customers. The company provides informations for language
+        learners, and in essence the company is a gateway to basic learning resources for language learners. While it
+        may be smaller compared to big retailers like Amazon which sells everything, the company will have more
+        specialized books on languages for language learners who want to go further, or linguists who wants to study
+        the language in detail.
+      </p>
+      <h4>Why might this company entice someone to purchase a product or service?</h4>
+      <p>
+        This company will provide a niche to language learners only. Since it is a hub where all types of books for
+        language learning is available at, those who are dedicated to learning a language would possibly browse
+        through
+        the selection available to see what books would fit their needs. Possibly, it may be recommended by professors
+        or teachers who are teaching the language, as it provides a resource for students to gather all relevant
+        material for study of another language.
+      </p>
     </section>
+  </section>
 
-    <!--JAVASCRIPT-->
-    <script src="scripts/gallery.js"></script>
+  <section class="element">
+    <h3 class="titles">Typography</h3>
+
+    <h2 class="main-headings">Montserrat</h2>
+    <h3 class="subheadings"> Raleway</h3>
+    <p class="para">
+      [Lato] <br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus libero, tristique sit
+      amet turpis
+      ac, rhoncus vehicula lacus. Quisque a lobortis libero. Nulla pellentesque faucibus libero quis feugiat.
+      Curabitur et leo justo. In molestie sem urna, commodo suscipit ligula vulputate vitae. Vestibulum fringilla
+      accumsan malesuada. Quisque convallis euismod quam, nec consequat mauris condimentum sed. Integer ut varius
+      ex. Duis rutrum orci vel gravida scelerisque. Ut ut risus massa. In placerat ante vitae nisi faucibus, sed
+      pulvinar nulla auctor. Nulla a elit vel elit luctus porttitor a tempor ante. Integer aliquam odio ac porttitor
+      sodales. Vestibulum dui justo, mattis et lorem a, molestie pellentesque risus.
+    </p>
+
+    <h3 class="secondary-headings"> Raleway</h3>
+    <h4 class="subheading2">Raleway</h4>
+    <p class="para">
+      [Lato] <br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus libero, tristique sit
+      amet turpis
+      ac, rhoncus vehicula lacus. Quisque a lobortis libero. Nulla pellentesque faucibus libero quis feugiat.
+      Curabitur et leo justo. In molestie sem urna, commodo suscipit ligula vulputate vitae. Vestibulum fringilla
+      accumsan malesuada. Quisque convallis euismod quam, nec consequat mauris condimentum sed. Integer ut varius
+      ex. Duis rutrum orci vel gravida scelerisque. Ut ut risus massa. In placerat ante vitae nisi faucibus, sed
+      pulvinar nulla auctor. Nulla a elit vel elit luctus porttitor a tempor ante. Integer aliquam odio ac porttitor
+      sodales. Vestibulum dui justo, mattis et lorem a, molestie pellentesque risus.
+    </p>
+
+    <br>
+    <div>
+      <h4>Raleway</h4>
+      <a href="https://fonts.google.com/specimen/Raleway">Font Link</a>
+      <h4>Montserrat</h4>
+      <a href="https://fonts.google.com/specimen/Montserrat">Font Link</a>
+      <h4>Lato</h4>
+      <a href="https://fonts.google.com/specimen/Lato">Font Link</a>
+    </div>
+  </section>
+
+  <section class="element">
+    <h3 class="titles">Colour Palette</h3>
+    <div id="independence-colour">#555B6E </div>
+    <div id="morningblue-colour">#89B0AE</div>
+    <div id="verdigris-colour">#41B0B0</div>
+    <div id="newyorkpink-colour">#CC8B86</div>
+    <div id="cultured-colour">#FAF9F9</div>
+    <div id="black">#000</div>
+  </section>
+
+  <!--JAVASCRIPT-->
+  <script src="scripts/gallery.js"></script>
 </body>
 
 </html>
