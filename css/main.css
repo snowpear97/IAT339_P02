@@ -277,6 +277,7 @@ SUBMIT AND RESET BUTTON
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   color: white;
+  border-radius: 0.4rem;
   border: none;
   background-color: #41B0B0;
 }
@@ -631,6 +632,7 @@ https://www.w3schools.com/howto/howto_css_product_card.asp
   padding-right: 1rem;
   padding-left: 1rem;
   border: none;
+  border-radius: 0.2rem;
   outline: 0;
   color: white;
   background-color: #CC8B86;
