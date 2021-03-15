@@ -123,6 +123,7 @@ Colour Swatches
 
 .aboutus .right-side {
   float: right;
+  margin-right: 2rem;
   flex: 10 1 75%;
 }
 
